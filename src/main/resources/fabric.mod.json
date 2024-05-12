@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "arboreal",
+	"version": "${version}",
+	"name": "Arboreal",
+	"description": "Expand your world and creative possibilities with new trees and wood types!",
+	"authors": [
+		"Prism Studios"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/uItimatech/Arboreal"
+	},
+	"license": "General Public License v3.0",
+	"icon": "assets/arboreal/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.prism.arboreal.Arboreal"
+		],
+		"client": [
+			"net.prism.arboreal.ArborealClient"
+		],
+		"fabric-datagen": [
+			"net.prism.arboreal.ArborealDataGenerator"
+		]
+	},
+	"mixins": [
+		"arboreal.mixins.json",
+		{
+			"config": "arboreal.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
