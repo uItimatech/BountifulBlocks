@@ -1,31 +1,32 @@
 package net.ultimatech.bountifulblocks.block.custom;
 
-import net.minecraft.block.BlockState;
-import net.minecraft.block.DecoratedPotBlock;
-import net.minecraft.block.entity.BlockEntity;
-import net.minecraft.block.entity.DecoratedPotBlockEntity;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.ItemStack;
-import net.minecraft.particle.ParticleTypes;
-import net.minecraft.server.world.ServerWorld;
-import net.minecraft.sound.SoundCategory;
-import net.minecraft.sound.SoundEvents;
-import net.minecraft.stat.Stats;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.Hand;
-import net.minecraft.util.hit.BlockHitResult;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.BlockView;
-import net.minecraft.world.World;
-import net.minecraft.world.WorldView;
-import net.minecraft.world.event.GameEvent;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.stats.Stats;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.ItemInteractionResult;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.LevelReader;
+import net.minecraft.world.level.block.DecoratedPotBlock;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.entity.DecoratedPotBlockEntity;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.gameevent.GameEvent;
+import net.minecraft.world.phys.BlockHitResult;
 import net.ultimatech.bountifulblocks.block.BBBlocks;
-import net.ultimatech.bountifulblocks.block.entity.MudPotBlockEntity;
+import org.jetbrains.annotations.Nullable;
 
 
 public class MudPotBlock extends DecoratedPotBlock {
 
-    public MudPotBlock(Settings properties) {
+    public MudPotBlock(BlockBehaviour.Properties properties) {
         super(properties);
     }
 
@@ -35,51 +36,61 @@ public class MudPotBlock extends DecoratedPotBlock {
     // ----- PROPERTIES ----- //
 
     @Override
-    public ItemStack getPickStack(WorldView world, BlockPos blockPos, BlockState blockState) {
-        return BBBlocks.MUD_POT.asItem().getDefaultStack();
+    public ItemStack getCloneItemStack(LevelReader levelReader, BlockPos blockPos, BlockState blockState) {
+        return BBBlocks.MUD_POT.asItem().getDefaultInstance();
     }
 
+
     @Override
-    protected ActionResult onUse(BlockState state, World world, BlockPos blockPos, PlayerEntity player, BlockHitResult hit) {
+    protected ItemInteractionResult useItemOn(ItemStack itemStack, BlockState blockState, Level level, BlockPos blockPos, Player player, InteractionHand interactionHand, BlockHitResult hitResult){
 
-        Hand hand = player.getActiveHand();
-
-        BlockEntity itemStack = world.getBlockEntity(blockPos);
-        if (itemStack instanceof MudPotBlockEntity MudPotBlockEntity) {
-            if (world.isClient) {
-                return ActionResult.CONSUME;
+        if (level.getBlockEntity(blockPos) instanceof DecoratedPotBlockEntity mudPotBlockEntity) {
+            //TODO Replace with MudPotBlockEntity
+            if (level.isClientSide) {
+                return ItemInteractionResult.CONSUME;
             } else {
-                ItemStack itemStackx = player.getStackInHand(hand);
-                ItemStack itemStack2 = MudPotBlockEntity.getStack();
-                if (!itemStackx.isEmpty() && (itemStack2.isEmpty() || ItemStack.areItemsEqual(itemStack2, itemStackx) && itemStack2.getCount() < itemStack2.getMaxCount())) {
-                    MudPotBlockEntity.wobble(DecoratedPotBlockEntity.WobbleType.POSITIVE);
-                    player.incrementStat(Stats.USED.getOrCreateStat(itemStackx.getItem()));
-                    ItemStack itemStack3 = player.isCreative() ? itemStackx.copyWithCount(1) : itemStackx.split(1);
+                ItemStack itemstack1 = mudPotBlockEntity.getTheItem();
+                if (!itemStack.isEmpty()
+                        && (
+                        itemstack1.isEmpty()
+                                || ItemStack.isSameItemSameComponents(itemstack1, itemStack) && itemstack1.getCount() < itemstack1.getMaxStackSize()
+                )) {
+                    mudPotBlockEntity.wobble(DecoratedPotBlockEntity.WobbleStyle.POSITIVE);
+                    player.awardStat(Stats.ITEM_USED.get(itemStack.getItem()));
+                    ItemStack itemstack = itemStack.consumeAndReturn(1, player);
                     float f;
-                    if (MudPotBlockEntity.isEmpty()) {
-                        MudPotBlockEntity.setStack(itemStack3);
-                        f = (float)itemStack3.getCount() / (float)itemStack3.getMaxCount();
+                    if (mudPotBlockEntity.isEmpty()) {
+                        mudPotBlockEntity.setTheItem(itemstack);
+                        f = (float)itemstack.getCount() / (float)itemstack.getMaxStackSize();
                     } else {
-                        itemStack2.increment(1);
-                        f = (float)itemStack2.getCount() / (float)itemStack2.getMaxCount();
+                        itemstack1.grow(1);
+                        f = (float)itemstack1.getCount() / (float)itemstack1.getMaxStackSize();
                     }
 
-                    world.playSound(null, blockPos, SoundEvents.BLOCK_DECORATED_POT_INSERT, SoundCategory.BLOCKS, 1.0F, 0.7F + 0.5F * f);
-                    if (world instanceof ServerWorld serverWorld) {
-                        serverWorld.spawnParticles(ParticleTypes.DUST_PLUME, (double) blockPos.getX() + 0.5, (double) blockPos.getY() + 1.2, (double) blockPos.getZ() + 0.5, 7, 0.0, 0.0, 0.0, 0.0);
+                    level.playSound(null, blockPos, SoundEvents.DECORATED_POT_INSERT, SoundSource.BLOCKS, 1.0F, 0.7F + 0.5F * f);
+                    if (level instanceof ServerLevel serverlevel) {
+                        serverlevel.sendParticles(
+                                ParticleTypes.DUST_PLUME,
+                                (double)blockPos.getX() + 0.5,
+                                (double)blockPos.getY() + 1.2,
+                                (double)blockPos.getZ() + 0.5,
+                                7,
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0
+                        );
                     }
 
-                    MudPotBlockEntity.markDirty();
+                    mudPotBlockEntity.setChanged();
+                    level.gameEvent(player, GameEvent.BLOCK_CHANGE, blockPos);
+                    return ItemInteractionResult.SUCCESS;
                 } else {
-                    world.playSound(null, blockPos, SoundEvents.BLOCK_DECORATED_POT_INSERT_FAIL, SoundCategory.BLOCKS, 1.0F, 1.0F);
-                    MudPotBlockEntity.wobble(DecoratedPotBlockEntity.WobbleType.NEGATIVE);
+                    return ItemInteractionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION;
                 }
-
-                world.emitGameEvent(player, GameEvent.BLOCK_CHANGE, blockPos);
-                return ActionResult.SUCCESS;
             }
         } else {
-            return ActionResult.PASS;
+            return ItemInteractionResult.SKIP_DEFAULT_BLOCK_INTERACTION;
         }
     }
 
@@ -88,13 +99,20 @@ public class MudPotBlock extends DecoratedPotBlock {
 
     // ----- RENDERING ----- //
 
+    @Nullable
     @Override
-    public BlockEntity createBlockEntity(BlockPos blockPos, BlockState blockState) {
-        return new MudPotBlockEntity(blockPos, blockState);
+    public BlockEntity newBlockEntity(BlockPos blockPos, BlockState blockState) {
+        return new DecoratedPotBlockEntity(blockPos, blockState);
+        //TODO Replace with MudPotBlockEntity
     }
 
     @Override
-    public boolean isTransparent(BlockState state, BlockView world, BlockPos pos) {
-        return true;
+    protected boolean isOcclusionShapeFullBlock(BlockState pState, BlockGetter pLevel, BlockPos pPos) {
+        return false;
+    }
+
+    @Override
+    protected boolean useShapeForLightOcclusion(BlockState pState) {
+        return false;
     }
 }

@@ -1,24 +1,34 @@
 package net.ultimatech.bountifulblocks.block;
 
-import net.fabricmc.fabric.api.object.builder.v1.block.type.BlockSetTypeBuilder;
-import net.minecraft.block.BlockSetType;
-import net.minecraft.sound.SoundEvents;
-import net.minecraft.util.Identifier;
-import net.ultimatech.bountifulblocks.BountifulBlocks;
+
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
+
 
 public class BBBlockSetTypes {
 
     // ----- BLOCKSET TYPES ----- //
-    public static final BlockSetType MUD = registerBlockSetType("mud", BlockSetTypeBuilder.copyOf(BlockSetType.POLISHED_BLACKSTONE).pressurePlateClickOnSound(SoundEvents.BLOCK_MUD_BRICKS_STEP).pressurePlateClickOffSound(SoundEvents.BLOCK_MUD_BRICKS_STEP).buttonClickOnSound(SoundEvents.BLOCK_MUD_BRICKS_STEP).buttonClickOffSound(SoundEvents.BLOCK_MUD_BRICKS_STEP));
+
+    public static final BlockSetType MUD = BlockSetType.register(
+            new BlockSetType(
+                    "mud",
+                    true,
+                    true,
+                    true,
+                    BlockSetType.PressurePlateSensitivity.MOBS,
+                    SoundType.MUD,
+                    SoundEvents.MUD_BRICKS_STEP,
+                    SoundEvents.MUD_BRICKS_STEP,
+                    SoundEvents.MUD_BRICKS_STEP,
+                    SoundEvents.MUD_BRICKS_STEP,
+                    SoundEvents.MUD_BRICKS_STEP,
+                    SoundEvents.MUD_BRICKS_STEP,
+                    SoundEvents.MUD_BRICKS_STEP,
+                    SoundEvents.MUD_BRICKS_STEP
+            )
+    );
 
 
-
-    // ----- REGISTRATION ----- //
-    public static BlockSetType registerBlockSetType(String name, BlockSetTypeBuilder blockSetTypeBuilder)
-    {
-        return blockSetTypeBuilder.build(Identifier.of(BountifulBlocks.MOD_ID, name));
-    }
-
-    public static void registerBlockSetTypes() {
-    }
+    public static void registerBlockSetTypes() {}
 }

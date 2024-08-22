@@ -1,19 +1,15 @@
 package net.ultimatech.bountifulblocks.item;
 
-import net.minecraft.item.Item;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.util.Identifier;
+import net.minecraft.world.item.Item;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.registries.DeferredRegister;
 import net.ultimatech.bountifulblocks.BountifulBlocks;
 
 public class BBItems {
 
+	public static final DeferredRegister<Item> ITEMS = DeferredRegister.createItems(BountifulBlocks.MOD_ID);
 
-
-    // ----- REGISTRATION ----- //
-    private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, Identifier.of(BountifulBlocks.MOD_ID, name), item);
-    }
-
-    public static void registerItems() {}
+	public static void register(IEventBus eventBus) {
+		ITEMS.register(eventBus);
+	}
 }
