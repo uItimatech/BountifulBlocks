@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "bountifulblocks:ice_tiles"
+  },
+  "result": "bountifulblocks:ice_tile_wall"
+}

@@ -1,0 +1,22 @@
+{
+	"credit": "Made by ultimatech using Blockbench",
+	"textures": {
+		"particle": "#particle",
+		"wall": "#wall"
+	},
+	"elements": [
+		{
+			"name": "Center post",
+			"from": [4, 0, 4],
+			"to": [12, 16, 12],
+			"faces": {
+				"north": {"uv": [8, 0, 16, 16], "texture": "#wall"},
+				"east": {"uv": [0, 0, 8, 16], "texture": "#wall"},
+				"south": {"uv": [8, 0, 16, 16], "texture": "#wall"},
+				"west": {"uv": [0, 0, 8, 16], "texture": "#wall"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#wall", "cullface": "up"},
+				"down": {"uv": [8, 8, 16, 16], "texture": "#wall", "cullface": "down"}
+			}
+		}
+	]
+}

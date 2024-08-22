@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "bountifulblocks:granite_bricks"
+  },
+  "result": "bountifulblocks:granite_brick_wall"
+}

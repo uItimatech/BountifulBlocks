@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "bountifulblocks:block/andesite_brick_slab"
+        },
+        "type=double": {
+            "model": "bountifulblocks:block/andesite_bricks"
+        },
+        "type=top": {
+            "model": "bountifulblocks:block/andesite_brick_slab_top"
+        }
+    }
+}

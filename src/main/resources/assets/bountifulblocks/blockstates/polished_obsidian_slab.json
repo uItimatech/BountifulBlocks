@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "bountifulblocks:block/polished_obsidian_slab"
+        },
+        "type=double": {
+            "model": "bountifulblocks:block/polished_obsidian"
+        },
+        "type=top": {
+            "model": "bountifulblocks:block/polished_obsidian_slab_top"
+        }
+    }
+}

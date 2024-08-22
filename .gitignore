@@ -38,3 +38,10 @@ hs_err_*.log
 replay_*.log
 *.hprof
 *.jfr
+
+# python and datagen
+
+*.py
+!src/main/resources/assets/bountifulblocks/ASSETIMPLEMENTER/
+!src/main/resources/LOOTGEN/
+!src/main/resources/RECIPEGEN/

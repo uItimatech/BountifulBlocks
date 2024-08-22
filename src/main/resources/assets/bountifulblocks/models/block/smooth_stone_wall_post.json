@@ -1,0 +1,23 @@
+{
+	"credit": "Made by ultimatech using Blockbench",
+	"textures": {
+		"particle": "bountifulblocks:block/vertical_smooth_stone",
+		"wall": "bountifulblocks:block/vertical_smooth_stone",
+		"top": "bountifulblocks:block/smooth_stone_tiles"
+	},
+	"elements": [
+		{
+			"name": "Center post",
+			"from": [4, 0, 4],
+			"to": [12, 16, 12],
+			"faces": {
+				"north": {"uv": [8, 0, 16, 16], "texture": "#wall"},
+				"east": {"uv": [0, 0, 8, 16], "texture": "#wall"},
+				"south": {"uv": [8, 0, 16, 16], "texture": "#wall"},
+				"west": {"uv": [0, 0, 8, 16], "texture": "#wall"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#top", "cullface": "up"},
+				"down": {"uv": [8, 8, 16, 16], "texture": "#top", "cullface": "down"}
+			}
+		}
+	]
+}

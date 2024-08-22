@@ -1,0 +1,47 @@
+{
+	"credit": "Made by ultimatech using Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "bountifulblocks:block/vertical_smooth_stone",
+		"wall": "bountifulblocks:block/vertical_smooth_stone",
+		"top": "bountifulblocks:block/smooth_stone_tiles"
+	},
+	"elements": [
+		{
+			"name": "Center post",
+			"from": [4, 0, 4],
+			"to": [12, 16, 12],
+			"faces": {
+				"north": {"uv": [8, 0, 16, 16], "texture": "#wall"},
+				"east": {"uv": [0, 0, 8, 16], "texture": "#wall"},
+				"south": {"uv": [8, 0, 16, 16], "texture": "#wall"},
+				"west": {"uv": [0, 0, 8, 16], "texture": "#wall"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#top"},
+				"down": {"uv": [8, 8, 16, 16], "texture": "#top"}
+			}
+		},
+		{
+			"name": "Full wall",
+			"from": [5, 0, 0],
+			"to": [11, 13, 16],
+			"faces": {
+				"north": {"uv": [0, 3, 6, 16], "texture": "#wall", "cullface": "north"},
+				"east": {"uv": [0, 3, 16, 16], "texture": "#wall"},
+				"south": {"uv": [10, 3, 16, 16], "texture": "#wall", "cullface": "south"},
+				"west": {"uv": [0, 3, 16, 16], "texture": "#wall"},
+				"up": {"uv": [0, 0, 6, 16], "texture": "#wall"},
+				"down": {"uv": [5, 0, 11, 16], "texture": "#wall", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 135, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/slab",
+    "textures": {
+        "bottom": "bountifulblocks:block/andesite_tiles",
+        "side": "bountifulblocks:block/andesite_tiles",
+        "top": "bountifulblocks:block/andesite_tiles"
+    }
+}
