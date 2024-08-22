@@ -1,0 +1,8 @@
+// Format: type['b' for blocks, 'i' for items],subtype['block','stairs','slab','wall','tile_wall', etc...],name,texture(optional)
+
+// Examples:
+// b,block,example_block,example_texture
+// b,block,polished_cobblestone,             <- (if there is no specified texture, uses 'filename.png')
+// b,stairs,polished_cobblestone_stairs,polished_cobblestone
+// b,slab,polished_cobblestone_slab,polished_cobblestone
+// b,wall,polished_cobblestone_wall,polished_cobblestone

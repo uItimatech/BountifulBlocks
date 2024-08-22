@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/stairs",
+    "textures": {
+        "bottom": "bountifulblocks:block/polished_end_stone",
+        "side": "bountifulblocks:block/polished_end_stone",
+        "top": "bountifulblocks:block/polished_end_stone"
+    }
+}

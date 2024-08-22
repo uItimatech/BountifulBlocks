@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+      "down": "bountifulblocks:block/smooth_stone_tiles",
+      "east": "bountifulblocks:block/smooth_stone_bricks_layered",
+      "north": "bountifulblocks:block/smooth_stone_bricks_layered",
+      "particle": "bountifulblocks:block/smooth_stone_bricks_layered",
+      "south": "bountifulblocks:block/smooth_stone_bricks_layered",
+      "up": "bountifulblocks:block/smooth_stone_bricks_layered_top",
+      "west": "bountifulblocks:block/smooth_stone_bricks_layered"
+    }
+  }

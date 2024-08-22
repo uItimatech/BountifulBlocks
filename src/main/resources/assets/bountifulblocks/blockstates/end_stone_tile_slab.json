@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "bountifulblocks:block/end_stone_tile_slab"
+        },
+        "type=double": {
+            "model": "bountifulblocks:block/end_stone_tiles"
+        },
+        "type=top": {
+            "model": "bountifulblocks:block/end_stone_tile_slab_top"
+        }
+    }
+}

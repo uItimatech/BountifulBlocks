@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.ultimatech.bountifulblocks.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AxeItemMixin",
+    "NetherPortalMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

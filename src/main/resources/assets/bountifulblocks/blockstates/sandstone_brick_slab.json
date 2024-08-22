@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "bountifulblocks:block/sandstone_brick_slab"
+        },
+        "type=double": {
+            "model": "bountifulblocks:block/sandstone_bricks"
+        },
+        "type=top": {
+            "model": "bountifulblocks:block/sandstone_brick_slab_top"
+        }
+    }
+}

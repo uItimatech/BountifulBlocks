@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "minecraft:block/red_sandstone",
+    "top" : "minecraft:block/red_sandstone_top",
+    "particle": "#wall"
+  },
+  "elements": [
+      {   "from": [ 4, 0, 4 ],
+          "to": [ 12, 16, 12 ],
+          "faces": {
+              "down":  { "texture": "#wall", "cullface": "down" },
+              "up":    { "texture": "#top", "cullface": "up" },
+              "north": { "texture": "#wall" },
+              "south": { "texture": "#wall" },
+              "west":  { "texture": "#wall" },
+              "east":  { "texture": "#wall" }
+          },
+          "__comment": "Center post"
+      }
+  ]
+}

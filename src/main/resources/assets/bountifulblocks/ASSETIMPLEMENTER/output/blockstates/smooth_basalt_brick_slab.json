@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "echoingwilds:block/smooth_basalt_brick_slab"
+        },
+        "type=double": {
+            "model": "echoingwilds:block/smooth_basalt_bricks"
+        },
+        "type=top": {
+            "model": "echoingwilds:block/smooth_basalt_brick_slab"
+        }
+    }
+}

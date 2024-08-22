@@ -1,41 +1,41 @@
 {
 	"schemaVersion": 1,
-	"id": "arboreal",
+	"id": "bountifulblocks",
 	"version": "${version}",
-	"name": "Arboreal",
-	"description": "Expand your world and creative possibilities with new trees and wood types!",
+	"name": "Bountiful Blocks",
+	"description": "Expand your creative possibilities with new blocks!",
 	"authors": [
-		"Prism Studios"
+		"ultimatech"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/uItimatech/Arboreal"
+		"sources": "https://github.com/uItimatech/BountifulBlocks"
 	},
 	"license": "General Public License v3.0",
-	"icon": "assets/arboreal/icon.png",
+	"icon": "assets/bountifulblocks/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.prism.arboreal.Arboreal"
+			"net.ultimatech.bountifulblocks.BountifulBlocks"
 		],
 		"client": [
-			"net.prism.arboreal.ArborealClient"
+			"net.ultimatech.bountifulblocks.BountifulBlocksClient"
 		],
 		"fabric-datagen": [
-			"net.prism.arboreal.ArborealDataGenerator"
+			"net.ultimatech.bountifulblocks.BountifulBlocksDataGenerator"
 		]
 	},
 	"mixins": [
-		"arboreal.mixins.json",
+      "bountifulblocks.mixins.json",
 		{
-			"config": "arboreal.client.mixins.json",
+			"config": "bountifulblocks.client.mixins.json",
 			"environment": "client"
 		}
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
-		"minecraft": "~1.20.4",
-		"java": ">=17",
+		"minecraft": "~1.21",
+		"java": ">=21",
 		"fabric-api": "*"
 	},
 	"suggests": {
