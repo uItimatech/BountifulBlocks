@@ -425,11 +425,10 @@
 	"block.bountifulblocks.calcite_tile_slab": "Calcite Tile Slab",
 	"block.bountifulblocks.calcite_tile_wall": "Calcite Tile Wall",
 	"block.bountifulblocks.chiseled_calcite": "Chiseled Calcite",
-	
-	"block.bountifulblocks.tuff_tiles": "Tuff Tiles",
-	"block.bountifulblocks.tuff_tile_stairs": "Tuff Tile Stairs",
-	"block.bountifulblocks.tuff_tile_slab": "Tuff Tile Slab",
-	"block.bountifulblocks.tuff_tile_wall": "Tuff Tile Wall",
+
+	"block.bountifulblocks.tuff_stairs": "Tuff Stairs",
+	"block.bountifulblocks.tuff_slab": "Tuff Slab",
+	"block.bountifulblocks.tuff_wall": "Tuff Wall",
 
 	"block.bountifulblocks.blackstone_tiles": "Blackstone Tiles",
 	"block.bountifulblocks.blackstone_tile_stairs": "Blackstone Tile Stairs",
@@ -559,7 +558,5 @@
 	"block.bountifulblocks.smooth_stone_tiles": "Smooth Stone Tiles",
 	"block.bountifulblocks.smooth_stone_tile_stairs": "Smooth Stone Tile Stairs",
 	"block.bountifulblocks.smooth_stone_tile_slab": "Smooth Stone Tile Slab",
-	"block.bountifulblocks.smooth_stone_tile_wall": "Smooth Stone Tile Wall",
-
-	"block.bountifulblocks.mud_pot": "Mud Pot"
+	"block.bountifulblocks.smooth_stone_tile_wall": "Smooth Stone Tile Wall"
 }

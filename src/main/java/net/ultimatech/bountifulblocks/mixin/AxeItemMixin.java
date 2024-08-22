@@ -1,26 +1,23 @@
 package net.ultimatech.bountifulblocks.mixin;
 
-import net.minecraft.block.BlockState;
-import net.minecraft.item.AxeItem;
+import net.minecraft.world.item.AxeItem;
+import net.minecraft.world.level.block.state.BlockState;
+import net.ultimatech.bountifulblocks.BountifulBlocks;
 import org.spongepowered.asm.mixin.Debug;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-import java.util.Optional;
-
-import static net.ultimatech.bountifulblocks.BountifulBlocks.CARVABLE_PLANKS;
-
 @Debug(export = true)
-@Mixin(AxeItem.class)
+@Mixin(value = AxeItem.class, remap = false)
 public class AxeItemMixin {
 
-    @Inject(method = "getStrippedState", at = @At("HEAD"), cancellable = true)
-    private void getStrippedState(BlockState state, CallbackInfoReturnable<Optional<BlockState>> cir) {
-
-        if (CARVABLE_PLANKS.containsKey(state.getBlock())) {
-            cir.setReturnValue(Optional.of(CARVABLE_PLANKS.get(state.getBlock()).getDefaultState()));
+    @Inject(method = "getAxeStrippingState", at = @At("HEAD"), cancellable = true)
+    private static void getAxeStrippingState(BlockState state, CallbackInfoReturnable<BlockState> cir) {
+        BountifulBlocks.LOGGER.info("AxeItemMixin.getAxeStrippingState");
+        if (BountifulBlocks.CARVABLE_PLANKS.containsKey(state.getBlock())) {
+            cir.setReturnValue(BountifulBlocks.CARVABLE_PLANKS.get(state.getBlock()).get().defaultBlockState());
         }
     }
 }

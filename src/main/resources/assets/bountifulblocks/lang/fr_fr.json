@@ -426,10 +426,9 @@
 	"block.bountifulblocks.calcite_tile_wall": "Mur en carreaux de calcite",
 	"block.bountifulblocks.chiseled_calcite": "Calcite taillée",
 
-	"block.bountifulblocks.tuff_tiles": "Carreaux de tuf",
-	"block.bountifulblocks.tuff_tile_stairs": "Escalier en carreaux de tuf",
-	"block.bountifulblocks.tuff_tile_slab": "Dalle en carreaux de tuf",
-	"block.bountifulblocks.tuff_tile_wall": "Mur en carreaux de tuf",
+	"block.bountifulblocks.tuff_stairs": "Escalier en tuf",
+	"block.bountifulblocks.tuff_slab": "Dalle en tuf",
+	"block.bountifulblocks.tuff_wall": "Mur en tuf",
 
 	"block.bountifulblocks.blackstone_tiles": "Carreaux de roche noire",
 	"block.bountifulblocks.blackstone_tile_stairs": "Escalier en carreaux de roche noire",
@@ -559,7 +558,5 @@
 	"block.bountifulblocks.smooth_stone_tiles": "Carreaux de pierre lisse",
 	"block.bountifulblocks.smooth_stone_tile_stairs": "Escalier en carreaux de pierre lisse",
 	"block.bountifulblocks.smooth_stone_tile_slab": "Dalle en carreaux de pierre lisse",
-	"block.bountifulblocks.smooth_stone_tile_wall": "Mur en carreaux de pierre lisse",
-
-	"block.bountifulblocks.mud_pot": "Mud Pot"
+	"block.bountifulblocks.smooth_stone_tile_wall": "Mur en carreaux de pierre lisse"
 }

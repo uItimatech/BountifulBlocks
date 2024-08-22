@@ -6,6 +6,7 @@
     "AxeItemMixin",
     "NetherPortalMixin"
   ],
+  "refmap": "${mod_id}.refmap.json",
   "injectors": {
     "defaultRequire": 1
 	}
