@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "bountifulblocks:chiseled_end_stone"
+    },
+    "result": {
+        "id": "minecraft:end_stone",
+        "count": 1
+    }
+}

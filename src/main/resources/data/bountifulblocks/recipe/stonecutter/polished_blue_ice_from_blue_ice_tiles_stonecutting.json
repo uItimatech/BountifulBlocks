@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "bountifulblocks:blue_ice_tiles"
+    },
+    "result": {
+        "id": "bountifulblocks:polished_blue_ice",
+        "count": 1
+    }
+}

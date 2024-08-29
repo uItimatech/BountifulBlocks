@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:prismarine_bricks"
+    },
+    "result": {
+        "id": "bountifulblocks:prismarine_brick_wall",
+        "count": 1
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "bountifulblocks:ice_bricks"
+    },
+    "result": {
+        "id": "bountifulblocks:ice_brick_slab",
+        "count": 2
+    }
+}

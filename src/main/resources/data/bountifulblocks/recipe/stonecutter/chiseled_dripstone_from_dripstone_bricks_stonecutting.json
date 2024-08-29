@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "bountifulblocks:dripstone_bricks"
+    },
+    "result": {
+        "id": "bountifulblocks:chiseled_dripstone",
+        "count": 1
+    }
+}

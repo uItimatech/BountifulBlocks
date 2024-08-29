@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "bountifulblocks:polished_cobblestone"
+    },
+    "result": {
+        "id": "bountifulblocks:polished_cobblestone_slab",
+        "count": 2
+    }
+}

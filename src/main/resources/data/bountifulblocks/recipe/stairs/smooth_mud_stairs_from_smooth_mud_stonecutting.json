@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "bountifulblocks:smooth_mud"
+    },
+    "result": {
+        "id": "bountifulblocks:smooth_mud_stairs",
+        "count": 1
+    }
+}

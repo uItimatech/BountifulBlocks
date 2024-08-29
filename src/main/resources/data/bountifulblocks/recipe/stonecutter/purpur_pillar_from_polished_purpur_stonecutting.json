@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "bountifulblocks:polished_purpur"
+    },
+    "result": {
+        "id": "minecraft:purpur_pillar",
+        "count": 1
+    }
+}
