@@ -571,18 +571,6 @@ public class BBBlocks {
     public static final Block TUFF_WALL = registerBlock("tuff_wall",
             new WallBlock(FabricBlockSettings.copy(Blocks.TUFF)));
 
-    public static final Block TUFF_TILES = registerBlock("tuff_tiles",
-            new Block(FabricBlockSettings.copy(Blocks.TUFF)));
-
-    public static final Block TUFF_TILE_STAIRS = registerBlock("tuff_tile_stairs",
-            new StairsBlock(BBBlocks.TUFF_TILES.getDefaultState(), FabricBlockSettings.copy(BBBlocks.TUFF_TILES)));
-
-    public static final Block TUFF_TILE_SLAB = registerBlock("tuff_tile_slab",
-            new SlabBlock(FabricBlockSettings.copy(BBBlocks.TUFF_TILES)));
-
-    public static final Block TUFF_TILE_WALL = registerBlock("tuff_tile_wall",
-            new WallBlock(FabricBlockSettings.copy(BBBlocks.TUFF_TILES)));
-
 
 
     public static final Block CALCITE_STAIRS = registerBlock("calcite_stairs",

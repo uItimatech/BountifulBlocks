@@ -149,10 +149,6 @@ public class BBVanillaCreativeTabs {
         entries.add(BBBlocks.TUFF_STAIRS);
         entries.add(BBBlocks.TUFF_SLAB);
         entries.add(BBBlocks.TUFF_WALL);
-        entries.add(BBBlocks.TUFF_TILES);
-        entries.add(BBBlocks.TUFF_TILE_STAIRS);
-        entries.add(BBBlocks.TUFF_TILE_SLAB);
-        entries.add(BBBlocks.TUFF_TILE_WALL);
 
         entries.add(Blocks.CALCITE);
         entries.add(BBBlocks.CALCITE_STAIRS);
