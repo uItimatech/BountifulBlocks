@@ -69,8 +69,6 @@ public class BountifulBlocks {
         NeoForge.EVENT_BUS.register(this);
 
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
-
-        //TODO add flammable blocks
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {}
