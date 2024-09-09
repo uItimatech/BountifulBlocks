@@ -12,7 +12,7 @@ chdir(dirname(__file__))
 
 # Version compatibility (supported: '1204', '1205+')
 
-version = "1205+"
+version = "1204"
 clearExportFolder = True
 excludedFolders = ["duplicates", "misc"] # Folders to exclude from clearing
 
@@ -25,7 +25,7 @@ blockStatesFolder = "assets/bountifulblocks/blockstates"
 vanillaBlockStatesFolder = "RECIPEGEN/_VANILLA_BLOCKSTATES"
 vanillaRecipesFolder = "RECIPEGEN/_VANILLA_RECIPES"
 templateFolder = "RECIPEGEN"
-exportFolder = "data/bountifulblocks/recipe"
+exportFolder = "data/bountifulblocks/recipe" # Add an "s" for versions earlier than 1.21
 stonecutterExportFolder = "stonecutter"
 
 

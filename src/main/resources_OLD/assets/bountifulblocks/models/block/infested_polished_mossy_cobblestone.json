@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "bountifulblocks:block/polished_mossy_cobblestone"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "wooden_slab",
+    "key": {
+        "#": {
+            "item": "bountifulblocks:cobblestone_bricks"
+        }
+    },
+    "pattern": [
+        "###"
+    ],
+    "result": {
+        "id": "bountifulblocks:cobblestone_brick_slab",
+        "count": 6
+    }
+}

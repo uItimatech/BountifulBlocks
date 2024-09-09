@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": {
+        "item": "bountifulblocks:tuff_tiles"
+    },
+    "result": {
+        "id": "minecraft:chiseled_tuff_bricks"
+    }
+}

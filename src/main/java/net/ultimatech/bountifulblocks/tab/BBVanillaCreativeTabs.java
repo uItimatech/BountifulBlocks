@@ -63,8 +63,8 @@ public class BBVanillaCreativeTabs {
             event.accept(BBBlocks.CHERRY_FLOORING);
             event.accept(BBBlocks.CHERRY_FLOORING_STAIRS);
             event.accept(BBBlocks.CHERRY_FLOORING_SLAB);
-            event.accept(BBBlocks.BAMBOO_FLOORING_STAIRS);
-            event.accept(BBBlocks.BAMBOO_FLOORING_SLAB);
+//            event.accept(BBBlocks.BAMBOO_FLOORING_STAIRS);
+//            event.accept(BBBlocks.BAMBOO_FLOORING_SLAB);
             event.accept(BBBlocks.CRIMSON_FLOORING);
             event.accept(BBBlocks.CRIMSON_FLOORING_STAIRS);
             event.accept(BBBlocks.CRIMSON_FLOORING_SLAB);

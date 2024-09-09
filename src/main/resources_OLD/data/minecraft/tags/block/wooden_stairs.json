@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "bountifulblocks:acacia_flooring_stairs",
+        "bountifulblocks:bamboo_flooring_stairs",
+        "bountifulblocks:birch_flooring_stairs",
+        "bountifulblocks:cherry_flooring_stairs",
+        "bountifulblocks:crimson_flooring_stairs",
+        "bountifulblocks:dark_oak_flooring_stairs",
+        "bountifulblocks:jungle_flooring_stairs",
+        "bountifulblocks:mangrove_flooring_stairs",
+        "bountifulblocks:oak_flooring_stairs",
+        "bountifulblocks:spruce_flooring_stairs",
+        "bountifulblocks:warped_flooring_stairs"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+	"credit": "Made by ultimatech using Blockbench",
+	"parent": "bountifulblocks:block/template_tile_wall_inventory",
+	"textures": {
+		"particle": "bountifulblocks:block/stone_tiles",
+		"wall": "bountifulblocks:block/stone_tiles"
+	}
+}

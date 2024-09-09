@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "bountifulblocks:block/crimson_flooring_slab"
+        },
+        "type=double": {
+            "model": "bountifulblocks:block/crimson_flooring"
+        },
+        "type=top": {
+            "model": "bountifulblocks:block/crimson_flooring_slab_top"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:calcite"
+    },
+    "result": {
+        "id": "bountifulblocks:calcite_tiles",
+        "count": 1
+    }
+}

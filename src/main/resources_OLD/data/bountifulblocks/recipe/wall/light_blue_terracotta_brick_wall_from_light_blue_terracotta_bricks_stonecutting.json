@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "bountifulblocks:light_blue_terracotta_bricks"
+    },
+    "result": {
+        "id": "bountifulblocks:light_blue_terracotta_brick_wall",
+        "count": 1
+    }
+}

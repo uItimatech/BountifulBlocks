@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/slab_top",
+    "textures": {
+        "bottom": "bountifulblocks:block/crimson_flooring",
+        "side": "bountifulblocks:block/crimson_flooring",
+        "top": "bountifulblocks:block/crimson_flooring"
+    }
+}

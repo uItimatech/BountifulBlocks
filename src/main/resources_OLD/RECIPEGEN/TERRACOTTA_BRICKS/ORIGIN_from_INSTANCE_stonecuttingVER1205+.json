@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "INSTANCENAMESPACE:INSTANCE"
+  },
+  "result": {
+    "count": 1,
+    "id": "ORIGINNAMESPACE:ORIGIN"
+  }
+}

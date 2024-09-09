@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "bountifulblocks:block/cobblestone_tile_slab"
+        },
+        "type=double": {
+            "model": "bountifulblocks:block/cobblestone_tiles"
+        },
+        "type=top": {
+            "model": "bountifulblocks:block/cobblestone_tile_slab_top"
+        }
+    }
+}

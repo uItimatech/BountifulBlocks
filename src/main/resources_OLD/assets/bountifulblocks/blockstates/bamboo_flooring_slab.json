@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "bountifulblocks:block/bamboo_flooring_slab"
+        },
+        "type=double": {
+            "model": "minecraft:block/bamboo_mosaic"
+        },
+        "type=top": {
+            "model": "bountifulblocks:block/bamboo_flooring_slab_top"
+        }
+    }
+}

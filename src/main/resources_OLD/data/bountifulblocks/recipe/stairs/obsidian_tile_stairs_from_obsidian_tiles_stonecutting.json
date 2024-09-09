@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "bountifulblocks:obsidian_tiles"
+    },
+    "result": {
+        "id": "bountifulblocks:obsidian_tile_stairs",
+        "count": 1
+    }
+}

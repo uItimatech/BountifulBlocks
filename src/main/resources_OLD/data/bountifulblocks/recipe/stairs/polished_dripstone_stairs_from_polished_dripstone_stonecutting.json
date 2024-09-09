@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "bountifulblocks:polished_dripstone"
+    },
+    "result": {
+        "id": "bountifulblocks:polished_dripstone_stairs",
+        "count": 1
+    }
+}

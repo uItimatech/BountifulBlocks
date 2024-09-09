@@ -79,10 +79,10 @@ public class BBBlocks {
             new BBFlammableBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS), 5, 20));
 
     public static final DeferredBlock<Block> CARVED_MANGROVE_PLANKS = registerBlock("carved_mangrove_planks", () ->
-            new BBFlammableBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS), 5, 20));
+            new BBFlammableBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.MANGROVE_PLANKS), 5, 20));
 
     public static final DeferredBlock<Block> CARVED_CHERRY_PLANKS = registerBlock("carved_cherry_planks", () ->
-            new BBFlammableBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS), 5, 20));
+            new BBFlammableBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.CHERRY_PLANKS), 5, 20));
 
     public static final DeferredBlock<Block> CARVED_BAMBOO_PLANKS = registerBlock("carved_bamboo_planks", () ->
             new BBFlammableBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BAMBOO_PLANKS), 5, 20));
@@ -114,10 +114,10 @@ public class BBBlocks {
             new BBFlammableBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS), 5, 20));
 
     public static final DeferredBlock<Block> MANGROVE_FLOORING = registerBlock("mangrove_flooring", () ->
-            new BBFlammableBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS), 5, 20));
+            new BBFlammableBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.MANGROVE_PLANKS), 5, 20));
 
     public static final DeferredBlock<Block> CHERRY_FLOORING = registerBlock("cherry_flooring", () ->
-            new BBFlammableBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS), 5, 20));
+            new BBFlammableBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.CHERRY_PLANKS), 5, 20));
 
     public static final DeferredBlock<Block> CRIMSON_FLOORING = registerBlock("crimson_flooring", () ->
             new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS)));
@@ -175,11 +175,11 @@ public class BBBlocks {
     public static final DeferredBlock<Block> CHERRY_FLOORING_SLAB = registerBlock("cherry_flooring_slab", () ->
             new BBFlammableSlabBlock(BlockBehaviour.Properties.ofFullCopy(BBBlocks.CHERRY_FLOORING.get()), 5, 20));
 
-    public static final DeferredBlock<Block> BAMBOO_FLOORING_STAIRS = registerBlock("bamboo_flooring_stairs", () ->
-            new BBFlammableStairBlock(Blocks.BAMBOO_MOSAIC.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BAMBOO_MOSAIC), 5, 20));
-
-    public static final DeferredBlock<Block> BAMBOO_FLOORING_SLAB = registerBlock("bamboo_flooring_slab", () ->
-            new BBFlammableSlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BAMBOO_MOSAIC), 5, 20));
+//    public static final DeferredBlock<Block> BAMBOO_FLOORING_STAIRS = registerBlock("bamboo_flooring_stairs", () ->
+//            new BBFlammableStairBlock(Blocks.BAMBOO_MOSAIC.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BAMBOO_MOSAIC), 5, 20));
+//
+//    public static final DeferredBlock<Block> BAMBOO_FLOORING_SLAB = registerBlock("bamboo_flooring_slab", () ->
+//            new BBFlammableSlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BAMBOO_MOSAIC), 5, 20));
 
     public static final DeferredBlock<Block> CRIMSON_FLOORING_STAIRS = registerBlock("crimson_flooring_stairs", () ->
             new StairBlock(BBBlocks.CRIMSON_FLOORING.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(BBBlocks.CRIMSON_FLOORING.get())));
