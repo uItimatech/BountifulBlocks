@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "bountifulblocks:cobblestone_bricks"
+  },
+  "result": "bountifulblocks:cobblestone_brick_slab"
+}

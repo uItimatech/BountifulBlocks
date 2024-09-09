@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/stairs",
+    "textures": {
+        "bottom": "bountifulblocks:block/blue_ice_tiles",
+        "side": "bountifulblocks:block/blue_ice_tiles",
+        "top": "bountifulblocks:block/blue_ice_tiles"
+    }
+}

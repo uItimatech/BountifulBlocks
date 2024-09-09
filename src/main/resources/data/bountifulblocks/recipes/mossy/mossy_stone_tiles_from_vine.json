@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "bountifulblocks:stone_tiles"
+    },
+    {
+      "item": "minecraft:vine"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "bountifulblocks:mossy_stone_tiles"
+  }
+}

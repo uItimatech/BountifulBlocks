@@ -4,13 +4,11 @@
 		"0": "bountifulblocks:block/large_chain",
 		"particle": "bountifulblocks:block/large_chain"
 	},
-	"render_type": "cutout",
-	"ambientocclusion": false,
 	"elements": [
 		{
 			"from": [0.5, 2, 8.5],
 			"to": [16.5, 18, 8.5],
-            "shade": false,
+			"shade": false,
 			"rotation": {"angle": -45, "axis": "y", "origin": [8.5, 2, 8.5]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},

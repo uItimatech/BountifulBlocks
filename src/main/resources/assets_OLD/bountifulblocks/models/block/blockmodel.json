@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "bountifulblocks:block/carved_warped_planks",
+        "side": "bountifulblocks:block/carved_warped_planks"
+    }
+}

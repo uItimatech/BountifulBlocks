@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "bountifulblocks:sandstone_bricks"
+  },
+  "result": "bountifulblocks:sandstone_brick_wall"
+}

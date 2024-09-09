@@ -80,10 +80,10 @@ public class BBBlocks {
             new BBFlammableBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS), 5, 20));
 
     public static final RegistryObject<Block> CARVED_MANGROVE_PLANKS = registerBlock("carved_mangrove_planks", () ->
-            new BBFlammableBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS), 5, 20));
+            new BBFlammableBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS), 5, 20));
 
     public static final RegistryObject<Block> CARVED_CHERRY_PLANKS = registerBlock("carved_cherry_planks", () ->
-            new BBFlammableBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS), 5, 20));
+            new BBFlammableBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS), 5, 20));
 
     public static final RegistryObject<Block> CARVED_BAMBOO_PLANKS = registerBlock("carved_bamboo_planks", () ->
             new BBFlammableBlock(BlockBehaviour.Properties.copy(Blocks.BAMBOO_PLANKS), 5, 20));
@@ -115,10 +115,10 @@ public class BBBlocks {
             new BBFlammableBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS), 5, 20));
 
     public static final RegistryObject<Block> MANGROVE_FLOORING = registerBlock("mangrove_flooring", () ->
-            new BBFlammableBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS), 5, 20));
+            new BBFlammableBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS), 5, 20));
 
     public static final RegistryObject<Block> CHERRY_FLOORING = registerBlock("cherry_flooring", () ->
-            new BBFlammableBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS), 5, 20));
+            new BBFlammableBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS), 5, 20));
 
     public static final RegistryObject<Block> CRIMSON_FLOORING = registerBlock("crimson_flooring", () ->
             new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
@@ -176,11 +176,11 @@ public class BBBlocks {
     public static final RegistryObject<Block> CHERRY_FLOORING_SLAB = registerBlock("cherry_flooring_slab", () ->
             new BBFlammableSlabBlock(BlockBehaviour.Properties.copy(BBBlocks.CHERRY_FLOORING.get()), 5, 20));
 
-    public static final RegistryObject<Block> BAMBOO_FLOORING_STAIRS = registerBlock("bamboo_flooring_stairs", () ->
-            new BBFlammableStairBlock(Blocks.BAMBOO_MOSAIC.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BAMBOO_MOSAIC), 5, 20));
-
-    public static final RegistryObject<Block> BAMBOO_FLOORING_SLAB = registerBlock("bamboo_flooring_slab", () ->
-            new BBFlammableSlabBlock(BlockBehaviour.Properties.copy(Blocks.BAMBOO_MOSAIC), 5, 20));
+//    public static final RegistryObject<Block> BAMBOO_FLOORING_STAIRS = registerBlock("bamboo_flooring_stairs", () ->
+//            new BBFlammableStairBlock(Blocks.BAMBOO_MOSAIC.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BAMBOO_MOSAIC), 5, 20));
+//
+//    public static final RegistryObject<Block> BAMBOO_FLOORING_SLAB = registerBlock("bamboo_flooring_slab", () ->
+//            new BBFlammableSlabBlock(BlockBehaviour.Properties.copy(Blocks.BAMBOO_MOSAIC), 5, 20));
 
     public static final RegistryObject<Block> CRIMSON_FLOORING_STAIRS = registerBlock("crimson_flooring_stairs", () ->
             new StairBlock(BBBlocks.CRIMSON_FLOORING.get().defaultBlockState(), BlockBehaviour.Properties.copy(BBBlocks.CRIMSON_FLOORING.get())));

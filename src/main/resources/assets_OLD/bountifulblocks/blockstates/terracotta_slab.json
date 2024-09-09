@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "bountifulblocks:block/terracotta_slab"
+        },
+        "type=double": {
+            "model": "minecraft:block/terracotta"
+        },
+        "type=top": {
+            "model": "bountifulblocks:block/terracotta_slab_top"
+        }
+    }
+}

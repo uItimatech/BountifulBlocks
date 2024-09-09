@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "bountifulblocks:blue_ice_bricks"
+  },
+  "result": "bountifulblocks:blue_ice_brick_stairs"
+}

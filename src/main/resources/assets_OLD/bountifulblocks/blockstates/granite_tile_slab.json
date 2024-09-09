@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "bountifulblocks:block/granite_tile_slab"
+        },
+        "type=double": {
+            "model": "bountifulblocks:block/granite_tiles"
+        },
+        "type=top": {
+            "model": "bountifulblocks:block/granite_tile_slab_top"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "bountifulblocks:block/blue_concrete_slab"
+        },
+        "type=double": {
+            "model": "minecraft:block/blue_concrete"
+        },
+        "type=top": {
+            "model": "bountifulblocks:block/blue_concrete_slab_top"
+        }
+    }
+}

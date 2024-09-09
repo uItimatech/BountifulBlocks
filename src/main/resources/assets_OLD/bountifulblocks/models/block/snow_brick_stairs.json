@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/stairs",
+    "textures": {
+        "bottom": "bountifulblocks:block/snow_bricks",
+        "side": "bountifulblocks:block/snow_bricks",
+        "top": "bountifulblocks:block/snow_bricks"
+    }
+}

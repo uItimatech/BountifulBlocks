@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "bountifulblocks:block/warped_flooring_slab"
+        },
+        "type=double": {
+            "model": "bountifulblocks:block/warped_flooring"
+        },
+        "type=top": {
+            "model": "bountifulblocks:block/warped_flooring_slab_top"
+        }
+    }
+}

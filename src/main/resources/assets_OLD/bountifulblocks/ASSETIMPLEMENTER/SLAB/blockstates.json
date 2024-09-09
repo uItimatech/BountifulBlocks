@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "bountifulblocks:block/INSTANCE"
+        },
+        "type=double": {
+            "model": "bountifulblocks:block/TOREPLACE"
+        },
+        "type=top": {
+            "model": "bountifulblocks:block/INSTANCE_top"
+        }
+    }
+}

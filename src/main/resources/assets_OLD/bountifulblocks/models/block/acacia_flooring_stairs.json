@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/stairs",
+    "textures": {
+        "bottom": "bountifulblocks:block/acacia_flooring",
+        "side": "bountifulblocks:block/acacia_flooring",
+        "top": "bountifulblocks:block/acacia_flooring"
+    }
+}

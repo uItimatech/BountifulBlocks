@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "bountifulblocks:mossy_stone_tiles"
+  },
+  "result": "bountifulblocks:mossy_stone_tile_stairs"
+}

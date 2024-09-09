@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/inner_stairs",
+    "textures": {
+        "bottom": "bountifulblocks:block/ice_tiles",
+        "side": "bountifulblocks:block/ice_tiles",
+        "top": "bountifulblocks:block/ice_tiles"
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "bountifulblocks:smooth_mud"
+  },
+  "result": "bountifulblocks:mud_tiles"
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/slab",
+    "textures": {
+        "bottom": "bountifulblocks:block/spruce_flooring",
+        "side": "bountifulblocks:block/spruce_flooring",
+        "top": "bountifulblocks:block/spruce_flooring"
+    }
+}

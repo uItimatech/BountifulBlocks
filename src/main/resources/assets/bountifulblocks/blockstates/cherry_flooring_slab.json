@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "bountifulblocks:block/cherry_flooring_slab"
+        },
+        "type=double": {
+            "model": "bountifulblocks:block/cherry_flooring"
+        },
+        "type=top": {
+            "model": "bountifulblocks:block/cherry_flooring_slab_top"
+        }
+    }
+}

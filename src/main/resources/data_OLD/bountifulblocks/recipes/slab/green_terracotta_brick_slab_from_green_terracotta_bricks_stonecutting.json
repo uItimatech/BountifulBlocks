@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "bountifulblocks:green_terracotta_bricks"
+  },
+  "result": "bountifulblocks:green_terracotta_brick_slab"
+}

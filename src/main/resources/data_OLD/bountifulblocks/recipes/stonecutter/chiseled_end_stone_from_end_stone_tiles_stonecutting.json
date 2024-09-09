@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "bountifulblocks:end_stone_tiles"
+  },
+  "result": "bountifulblocks:chiseled_end_stone"
+}

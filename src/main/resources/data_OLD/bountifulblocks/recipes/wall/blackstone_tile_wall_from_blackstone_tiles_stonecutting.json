@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "bountifulblocks:blackstone_tiles"
+  },
+  "result": "bountifulblocks:blackstone_tile_wall"
+}

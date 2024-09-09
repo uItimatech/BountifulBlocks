@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "bountifulblocks:dripstone_bricks"
+  },
+  "result": "minecraft:dripstone_block"
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "powered=false": {
+            "model": "bountifulblocks:block/INSTANCE"
+        },
+        "powered=true": {
+            "model": "bountifulblocks:block/INSTANCE_down"
+        }
+    }
+}

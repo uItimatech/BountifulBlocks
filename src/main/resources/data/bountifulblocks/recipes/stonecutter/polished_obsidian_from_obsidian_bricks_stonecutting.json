@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "bountifulblocks:obsidian_bricks"
+  },
+  "result": "bountifulblocks:polished_obsidian"
+}

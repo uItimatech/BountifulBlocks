@@ -1,0 +1,19 @@
+{
+    "variants": {
+      "facing=east": {
+        "model": "bountifulblocks:block/chiseled_blue_ice",
+        "y": 90
+      },
+      "facing=north": {
+        "model": "bountifulblocks:block/chiseled_blue_ice"
+      },
+      "facing=south": {
+        "model": "bountifulblocks:block/chiseled_blue_ice",
+        "y": 180
+      },
+      "facing=west": {
+        "model": "bountifulblocks:block/chiseled_blue_ice",
+        "y": 270
+      }
+    }
+  }

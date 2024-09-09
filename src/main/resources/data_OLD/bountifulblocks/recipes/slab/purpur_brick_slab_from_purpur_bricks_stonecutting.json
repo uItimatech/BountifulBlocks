@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "bountifulblocks:purpur_bricks"
+  },
+  "result": "bountifulblocks:purpur_brick_slab"
+}

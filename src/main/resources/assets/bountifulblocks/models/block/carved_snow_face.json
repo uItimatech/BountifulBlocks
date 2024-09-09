@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+      "down": "bountifulblocks:block/carved_snow",
+      "east": "bountifulblocks:block/carved_snow",
+      "north": "bountifulblocks:block/carved_snow_face",
+      "particle": "bountifulblocks:block/carved_snow",
+      "south": "bountifulblocks:block/carved_snow",
+      "up": "bountifulblocks:block/carved_snow",
+      "west": "bountifulblocks:block/carved_snow"
+    }
+  }

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "bountifulblocks:smooth_stone_tiles"
+  },
+  "result": "bountifulblocks:smooth_stone_bricks"
+}

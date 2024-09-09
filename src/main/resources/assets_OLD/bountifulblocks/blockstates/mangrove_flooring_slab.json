@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "bountifulblocks:block/mangrove_flooring_slab"
+        },
+        "type=double": {
+            "model": "bountifulblocks:block/mangrove_flooring"
+        },
+        "type=top": {
+            "model": "bountifulblocks:block/mangrove_flooring_slab_top"
+        }
+    }
+}
