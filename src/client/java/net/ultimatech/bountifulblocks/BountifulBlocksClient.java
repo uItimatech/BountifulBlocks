@@ -6,14 +6,14 @@ import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.block.entity.BlockEntityRendererFactories;
 import net.ultimatech.bountifulblocks.block.BBBlocks;
 import net.ultimatech.bountifulblocks.block.entity.BBBlockEntities;
-import net.ultimatech.bountifulblocks.block.entity.MudPotBlockEntityRenderer;
+//import net.ultimatech.bountifulblocks.block.entity.MudPotBlockEntityRenderer;
 
 public class BountifulBlocksClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		BlockRenderLayerMap.INSTANCE.putBlock(BBBlocks.LARGE_CHAIN, RenderLayer.getCutout());
 
-		BlockRenderLayerMap.INSTANCE.putBlock(BBBlocks.MUD_POT, RenderLayer.getCutout());
+		//BlockRenderLayerMap.INSTANCE.putBlock(BBBlocks.MUD_POT, RenderLayer.getCutout());
 
 		BlockRenderLayerMap.INSTANCE.putBlock(BBBlocks.POLISHED_ICE, RenderLayer.getTranslucent());
 		BlockRenderLayerMap.INSTANCE.putBlock(BBBlocks.POLISHED_ICE_STAIRS, RenderLayer.getTranslucent());
@@ -31,6 +31,6 @@ public class BountifulBlocksClient implements ClientModInitializer {
 		BlockRenderLayerMap.INSTANCE.putBlock(BBBlocks.ICE_TILE_WALL, RenderLayer.getTranslucent());
 		BlockRenderLayerMap.INSTANCE.putBlock(BBBlocks.CHISELED_ICE, RenderLayer.getTranslucent());
 
-		BlockEntityRendererFactories.register(BBBlockEntities.MUD_POT, MudPotBlockEntityRenderer::new);
+		//BlockEntityRendererFactories.register(BBBlockEntities.MUD_POT, MudPotBlockEntityRenderer::new);
 	}
 }

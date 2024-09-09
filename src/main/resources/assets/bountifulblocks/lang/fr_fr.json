@@ -426,9 +426,10 @@
 	"block.bountifulblocks.calcite_tile_wall": "Mur en carreaux de calcite",
 	"block.bountifulblocks.chiseled_calcite": "Calcite taillée",
 
-	"block.bountifulblocks.tuff_stairs": "Escalier en tuf",
-	"block.bountifulblocks.tuff_slab": "Dalle en tuf",
-	"block.bountifulblocks.tuff_wall": "Mur en tuf",
+	"block.bountifulblocks.tuff_tiles": "Carreaux de tuf",
+	"block.bountifulblocks.tuff_tile_stairs": "Escalier en carreaux de tuf",
+	"block.bountifulblocks.tuff_tile_slab": "Dalle en carreaux de tuf",
+	"block.bountifulblocks.tuff_tile_wall": "Mur en carreaux de tuf",
 
 	"block.bountifulblocks.blackstone_tiles": "Carreaux de roche noire",
 	"block.bountifulblocks.blackstone_tile_stairs": "Escalier en carreaux de roche noire",
@@ -515,8 +516,6 @@
 	"block.bountifulblocks.cherry_flooring_stairs": "Escalier de parquet en cerisier",
 	"block.bountifulblocks.crimson_flooring_stairs": "Escalier de parquet en carmin",
 	"block.bountifulblocks.warped_flooring_stairs": "Escalier de parquet en distordu",
-	"block.bountifulblocks.bamboo_flooring_slab": "Dalle de parquet en bambou",
-	"block.bountifulblocks.bamboo_flooring_stairs": "Escalier de parquet en bambou",
 
 	"block.bountifulblocks.chiseled_obsidian": "Obsidienne taillée",
 	"block.bountifulblocks.polished_obsidian": "Obsidienne polie",

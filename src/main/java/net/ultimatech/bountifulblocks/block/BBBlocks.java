@@ -73,10 +73,10 @@ public class BBBlocks {
             new Block(FabricBlockSettings.copy(Blocks.DARK_OAK_PLANKS)));
 
     public static final Block CARVED_MANGROVE_PLANKS = registerBlock("carved_mangrove_planks",
-            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+            new Block(FabricBlockSettings.copy(Blocks.MANGROVE_PLANKS)));
 
     public static final Block CARVED_CHERRY_PLANKS = registerBlock("carved_cherry_planks",
-            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+            new Block(FabricBlockSettings.copy(Blocks.CHERRY_PLANKS)));
 
     public static final Block CARVED_BAMBOO_PLANKS = registerBlock("carved_bamboo_planks",
             new Block(FabricBlockSettings.copy(Blocks.BAMBOO_PLANKS)));
@@ -108,10 +108,10 @@ public class BBBlocks {
             new Block(FabricBlockSettings.copy(Blocks.DARK_OAK_PLANKS)));
 
     public static final Block MANGROVE_FLOORING = registerBlock("mangrove_flooring",
-            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+            new Block(FabricBlockSettings.copy(Blocks.MANGROVE_PLANKS)));
 
     public static final Block CHERRY_FLOORING = registerBlock("cherry_flooring",
-            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+            new Block(FabricBlockSettings.copy(Blocks.CHERRY_PLANKS)));
 
     public static final Block CRIMSON_FLOORING = registerBlock("crimson_flooring",
             new Block(FabricBlockSettings.copy(Blocks.CRIMSON_PLANKS)));
@@ -169,11 +169,11 @@ public class BBBlocks {
     public static final Block CHERRY_FLOORING_SLAB = registerBlock("cherry_flooring_slab",
             new SlabBlock(FabricBlockSettings.copy(BBBlocks.CHERRY_FLOORING)));
 
-    public static final Block BAMBOO_FLOORING_STAIRS = registerBlock("bamboo_flooring_stairs",
-            new StairsBlock(Blocks.BAMBOO_MOSAIC.getDefaultState(), FabricBlockSettings.copy(Blocks.BAMBOO_MOSAIC)));
-
-    public static final Block BAMBOO_FLOORING_SLAB = registerBlock("bamboo_flooring_slab",
-            new SlabBlock(FabricBlockSettings.copy(Blocks.BAMBOO_MOSAIC)));
+//    public static final Block BAMBOO_FLOORING_STAIRS = registerBlock("bamboo_flooring_stairs",
+//            new StairsBlock(Blocks.BAMBOO_MOSAIC.getDefaultState(), FabricBlockSettings.copy(Blocks.BAMBOO_MOSAIC)));
+//
+//    public static final Block BAMBOO_FLOORING_SLAB = registerBlock("bamboo_flooring_slab",
+//            new SlabBlock(FabricBlockSettings.copy(Blocks.BAMBOO_MOSAIC)));
 
     public static final Block CRIMSON_FLOORING_STAIRS = registerBlock("crimson_flooring_stairs",
             new StairsBlock(BBBlocks.CRIMSON_FLOORING.getDefaultState(), FabricBlockSettings.copy(BBBlocks.CRIMSON_FLOORING)));
@@ -670,8 +670,8 @@ public class BBBlocks {
     public static final Block SMOOTH_MUD_BUTTON = registerBlock("smooth_mud_button",
             new MudButtonBlock(FabricBlockSettings.copy(Blocks.PACKED_MUD)));
 
-    public static final Block MUD_POT = registerBlock("mud_pot",
-            new MudPotBlock(FabricBlockSettings.copy(Blocks.PACKED_MUD).breakInstantly()));
+//    public static final Block MUD_POT = registerBlock("mud_pot",
+//            new MudPotBlock(FabricBlockSettings.copy(Blocks.PACKED_MUD).breakInstantly()));
 
 
 
