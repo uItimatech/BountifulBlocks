@@ -25,7 +25,7 @@ blockStatesFolder = "assets/bountifulblocks/blockstates"
 vanillaBlockStatesFolder = "RECIPEGEN/_VANILLA_BLOCKSTATES"
 vanillaRecipesFolder = "RECIPEGEN/_VANILLA_RECIPES"
 templateFolder = "RECIPEGEN"
-exportFolder = "data/bountifulblocks/recipes"
+exportFolder = "data/bountifulblocks/recipe" # Add an "s" for versions earlier than 1.21
 stonecutterExportFolder = "stonecutter"
 
 

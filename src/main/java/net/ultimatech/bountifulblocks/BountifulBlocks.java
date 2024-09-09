@@ -85,7 +85,7 @@ BountifulBlocks implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(BBBlocks.DARK_OAK_FLOORING_STAIRS, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(BBBlocks.MANGROVE_FLOORING_STAIRS, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(BBBlocks.CHERRY_FLOORING_STAIRS, 5, 20);
-		FlammableBlockRegistry.getDefaultInstance().add(BBBlocks.BAMBOO_FLOORING_STAIRS, 5, 20);
+		//FlammableBlockRegistry.getDefaultInstance().add(BBBlocks.BAMBOO_FLOORING_STAIRS, 5, 20);
 		//FlammableBlockRegistry.getDefaultInstance().add(BBBlocks.CRIMSON_FLOORING_STAIRS, 5, 20);
 		//FlammableBlockRegistry.getDefaultInstance().add(BBBlocks.WARPED_FLOORING_STAIRS, 5, 20);
 
@@ -97,7 +97,7 @@ BountifulBlocks implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(BBBlocks.DARK_OAK_FLOORING_SLAB, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(BBBlocks.MANGROVE_FLOORING_SLAB, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(BBBlocks.CHERRY_FLOORING_SLAB, 5, 20);
-		FlammableBlockRegistry.getDefaultInstance().add(BBBlocks.BAMBOO_FLOORING_SLAB, 5, 20);
+		//FlammableBlockRegistry.getDefaultInstance().add(BBBlocks.BAMBOO_FLOORING_SLAB, 5, 20);
 		//FlammableBlockRegistry.getDefaultInstance().add(BBBlocks.CRIMSON_FLOORING_SLAB, 5, 20);
 		//FlammableBlockRegistry.getDefaultInstance().add(BBBlocks.WARPED_FLOORING_SLAB, 5, 20);
 

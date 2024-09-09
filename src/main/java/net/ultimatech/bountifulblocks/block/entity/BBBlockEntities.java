@@ -12,10 +12,10 @@ public class BBBlockEntities {
 
 
     // ----- BLOCK ENTITIES ----- //
-    public static final BlockEntityType<MudPotBlockEntity> MUD_POT =
-            Registry.register(Registries.BLOCK_ENTITY_TYPE, Identifier.of(BountifulBlocks.MOD_ID, "mud_pot"),
-                    FabricBlockEntityTypeBuilder.create(MudPotBlockEntity::new,
-                            BBBlocks.MUD_POT).build());
+//    public static final BlockEntityType<MudPotBlockEntity> MUD_POT =
+//            Registry.register(Registries.BLOCK_ENTITY_TYPE, Identifier.of(BountifulBlocks.MOD_ID, "mud_pot"),
+//                    FabricBlockEntityTypeBuilder.create(MudPotBlockEntity::new,
+//                            BBBlocks.MUD_POT).build());
 
 
 

@@ -61,8 +61,8 @@ public class BBVanillaCreativeTabs {
         entries.add(BBBlocks.CHERRY_FLOORING);
         entries.add(BBBlocks.CHERRY_FLOORING_STAIRS);
         entries.add(BBBlocks.CHERRY_FLOORING_SLAB);
-        entries.add(BBBlocks.BAMBOO_FLOORING_STAIRS);
-        entries.add(BBBlocks.BAMBOO_FLOORING_SLAB);
+//        entries.add(BBBlocks.BAMBOO_FLOORING_STAIRS);
+//        entries.add(BBBlocks.BAMBOO_FLOORING_SLAB);
         entries.add(BBBlocks.CRIMSON_FLOORING);
         entries.add(BBBlocks.CRIMSON_FLOORING_STAIRS);
         entries.add(BBBlocks.CRIMSON_FLOORING_SLAB);
@@ -589,7 +589,7 @@ public class BBVanillaCreativeTabs {
 
         entries.add(BBBlocks.LARGE_CHAIN);
 
-        entries.add(BBBlocks.MUD_POT);
+        //entries.add(BBBlocks.MUD_POT);
 
         entries.add(BBBlocks.CHISELED_MUD_BRICKS);
         entries.add(BBBlocks.SMOOTH_MUD);
