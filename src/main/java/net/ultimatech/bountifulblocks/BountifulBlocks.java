@@ -3,6 +3,7 @@ package net.ultimatech.bountifulblocks;
 import com.google.common.collect.ImmutableMap;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.neoforged.neoforge.client.model.renderable.ITextureRenderTypeLookup;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.ultimatech.bountifulblocks.block.BBBlockSetTypes;
 import net.ultimatech.bountifulblocks.block.BBBlocks;
@@ -79,6 +80,7 @@ public class BountifulBlocks {
     @EventBusSubscriber(modid = MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
         @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event) {}
+        public static void onClientSetup(FMLClientSetupEvent event) {
+        }
     }
 }

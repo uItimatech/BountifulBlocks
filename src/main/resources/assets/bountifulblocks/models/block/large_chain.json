@@ -1,5 +1,7 @@
 {
 	"credit": "Made by ultimatech using Blockbench",
+	"ambientocclusion": false,
+	"render_type": "minecraft:cutout",
 	"textures": {
 		"0": "bountifulblocks:block/large_chain",
 		"particle": "bountifulblocks:block/large_chain"
@@ -12,11 +14,7 @@
 			"rotation": {"angle": -45, "axis": "y", "origin": [8.5, 2, 8.5]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
-				"south": {"uv": [16, 0, 0, 16], "texture": "#0"},
-				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
-				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
-				"down": {"uv": [0, 0, 16, 0], "texture": "#missing"}
+				"south": {"uv": [16, 0, 0, 16], "texture": "#0"}
 			}
 		},
 		{
@@ -26,11 +24,7 @@
 			"rotation": {"angle": 45, "axis": "y", "origin": [8.5, 2, 8.5]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 10], "texture": "#0"},
-				"east": {"uv": [0, 0, 0, 10], "texture": "#missing"},
-				"south": {"uv": [16, 0, 0, 10], "texture": "#0"},
-				"west": {"uv": [0, 0, 0, 10], "texture": "#missing"},
-				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
-				"down": {"uv": [0, 0, 16, 0], "texture": "#missing"}
+				"south": {"uv": [16, 0, 0, 10], "texture": "#0"}
 			}
 		},
 		{
@@ -40,11 +34,7 @@
 			"rotation": {"angle": 45, "axis": "y", "origin": [8.5, 2, 8.5]},
 			"faces": {
 				"north": {"uv": [0, 10, 16, 16], "texture": "#0"},
-				"east": {"uv": [0, 10, 0, 16], "texture": "#missing"},
-				"south": {"uv": [16, 10, 0, 16], "texture": "#0"},
-				"west": {"uv": [0, 10, 0, 16], "texture": "#missing"},
-				"up": {"uv": [0, 10, 16, 10], "texture": "#missing"},
-				"down": {"uv": [0, 10, 16, 10], "texture": "#missing"}
+				"south": {"uv": [16, 10, 0, 16], "texture": "#0"}
 			}
 		}
 	],

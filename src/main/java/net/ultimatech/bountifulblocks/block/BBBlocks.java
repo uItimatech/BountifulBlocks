@@ -632,7 +632,7 @@ public class BBBlocks {
 
 
     public static final DeferredBlock<Block> LARGE_CHAIN = registerBlock("large_chain", () ->
-            new LargeChainBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.CHAIN)));
+            new LargeChainBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.CHAIN).noOcclusion()));
 
 
 
