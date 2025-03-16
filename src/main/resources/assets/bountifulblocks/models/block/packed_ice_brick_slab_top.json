@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/slab_top",
+    "textures": {
+        "bottom": "bountifulblocks:block/packed_ice_bricks",
+        "side": "bountifulblocks:block/packed_ice_bricks",
+        "top": "bountifulblocks:block/packed_ice_bricks"
+    }
+}

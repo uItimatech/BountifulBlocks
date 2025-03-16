@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        {
+            "item": "bountifulblocks:polished_cobblestone"
+        },
+        {
+            "item": "minecraft:vine"
+        }
+    ],
+    "result": {
+        "id": "bountifulblocks:polished_mossy_cobblestone",
+        "count": 1
+    }
+}

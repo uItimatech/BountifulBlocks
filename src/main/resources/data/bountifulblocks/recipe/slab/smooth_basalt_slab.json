@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "wooden_slab",
+    "key": {
+        "#": {
+            "item": "minecraft:smooth_basalt"
+        }
+    },
+    "pattern": [
+        "###"
+    ],
+    "result": {
+        "id": "bountifulblocks:smooth_basalt_slab",
+        "count": 6
+    }
+}

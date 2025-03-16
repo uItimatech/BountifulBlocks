@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "bountifulblocks:block/packed_ice_tile_slab"
+        },
+        "type=double": {
+            "model": "bountifulblocks:block/packed_ice_tiles"
+        },
+        "type=top": {
+            "model": "bountifulblocks:block/packed_ice_tile_slab_top"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "#": {
+            "item": "bountifulblocks:blue_ice_tile_slab"
+        }
+    },
+    "pattern": [
+        "#",
+        "#"
+    ],
+    "result": {
+        "id": "bountifulblocks:chiseled_blue_ice",
+        "count": 1
+    }
+}

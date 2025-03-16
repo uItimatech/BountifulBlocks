@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/slab",
+    "textures": {
+        "bottom": "bountifulblocks:block/polished_calcite",
+        "side": "bountifulblocks:block/polished_calcite",
+        "top": "bountifulblocks:block/polished_calcite"
+    }
+}

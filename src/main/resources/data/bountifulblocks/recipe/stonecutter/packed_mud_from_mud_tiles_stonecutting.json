@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "bountifulblocks:mud_tiles"
+    },
+    "result": {
+        "id": "minecraft:packed_mud",
+        "count": 1
+    }
+}

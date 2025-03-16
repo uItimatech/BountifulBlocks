@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "S": {
+            "item": "minecraft:smooth_basalt"
+        }
+    },
+    "pattern": [
+        "SS",
+        "SS"
+    ],
+    "result": {
+        "id": "bountifulblocks:polished_smooth_basalt",
+        "count": 4
+    }
+}

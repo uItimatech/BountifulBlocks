@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "#": {
+            "item": "minecraft:calcite"
+        }
+    },
+    "pattern": [
+        "#  ",
+        "## ",
+        "###"
+    ],
+    "result": {
+        "id": "bountifulblocks:calcite_stairs",
+        "count": 4
+    }
+}

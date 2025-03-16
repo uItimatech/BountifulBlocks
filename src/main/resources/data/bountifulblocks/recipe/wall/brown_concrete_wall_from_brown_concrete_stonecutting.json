@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:brown_concrete"
+    },
+    "result": {
+        "id": "bountifulblocks:brown_concrete_wall",
+        "count": 1
+    }
+}

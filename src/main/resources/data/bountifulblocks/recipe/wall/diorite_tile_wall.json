@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": {
+            "item": "bountifulblocks:diorite_tiles"
+        }
+    },
+    "pattern": [
+        "###",
+        "###"
+    ],
+    "result": {
+        "id": "bountifulblocks:diorite_tile_wall",
+        "count": 6
+    }
+}

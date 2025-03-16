@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "N": {
+            "item": "minecraft:iron_nugget"
+        }
+    },
+    "pattern": [
+        "N",
+        "I",
+        "N"
+    ],
+    "result": {
+        "id": "bountifulblocks:large_chain",
+        "count": 1
+    },
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:not",
+            "value": {
+                "condition": "fabric:all_mods_loaded",
+                "values": [
+                    "echoingwilds"
+                ]
+            }
+        }
+    ]
+}

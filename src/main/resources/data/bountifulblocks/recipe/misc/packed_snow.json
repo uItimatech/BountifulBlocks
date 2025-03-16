@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "#": {
+            "item": "minecraft:snow_block"
+        }
+    },
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "result": {
+        "id": "bountifulblocks:packed_snow",
+        "count": 2
+    }
+}

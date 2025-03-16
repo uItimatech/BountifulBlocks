@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": {
+            "item": "minecraft:black_wool"
+        }
+    },
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "result": {
+        "id": "bountifulblocks:black_threaded_wool",
+        "count": 3
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": {
+            "item": "minecraft:mangrove_slab"
+        }
+    },
+    "pattern": [
+        "#",
+        "#"
+    ],
+    "result": {
+        "id": "bountifulblocks:carved_mangrove_planks",
+        "count": 1
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "#": {
+            "item": "bountifulblocks:pink_terracotta_bricks"
+        }
+    },
+    "pattern": [
+        "#  ",
+        "## ",
+        "###"
+    ],
+    "result": {
+        "id": "bountifulblocks:pink_terracotta_brick_stairs",
+        "count": 4
+    }
+}

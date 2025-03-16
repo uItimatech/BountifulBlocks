@@ -1,0 +1,18 @@
+{
+    "replace": false,
+    "values": [
+        "bountifulblocks:chiseled_obsidian",
+        "bountifulblocks:obsidian_bricks",
+        "bountifulblocks:obsidian_brick_slab",
+        "bountifulblocks:obsidian_brick_stairs",
+        "bountifulblocks:obsidian_brick_wall",
+        "bountifulblocks:obsidian_tiles",
+        "bountifulblocks:obsidian_tile_slab",
+        "bountifulblocks:obsidian_tile_stairs",
+        "bountifulblocks:obsidian_tile_wall",
+        "bountifulblocks:polished_obsidian",
+        "bountifulblocks:polished_obsidian_slab",
+        "bountifulblocks:polished_obsidian_stairs",
+        "bountifulblocks:polished_obsidian_wall"
+    ]
+}

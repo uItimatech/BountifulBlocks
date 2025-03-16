@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "bountifulblocks:chiseled_smooth_stone"
+    },
+    "result": {
+        "id": "bountifulblocks:smooth_stone_bricks",
+        "count": 1
+    }
+}

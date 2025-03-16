@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/slab",
+    "textures": {
+        "bottom": "bountifulblocks:block/tuff_tiles",
+        "side": "bountifulblocks:block/tuff_tiles",
+        "top": "bountifulblocks:block/tuff_tiles"
+    }
+}

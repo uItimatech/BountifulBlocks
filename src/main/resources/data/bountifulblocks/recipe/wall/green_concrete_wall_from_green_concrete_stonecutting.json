@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:green_concrete"
+    },
+    "result": {
+        "id": "bountifulblocks:green_concrete_wall",
+        "count": 1
+    }
+}

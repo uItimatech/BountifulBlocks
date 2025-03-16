@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "S": {
+            "item": "minecraft:dripstone_block"
+        }
+    },
+    "pattern": [
+        "SS",
+        "SS"
+    ],
+    "result": {
+        "id": "bountifulblocks:polished_dripstone",
+        "count": 4
+    }
+}

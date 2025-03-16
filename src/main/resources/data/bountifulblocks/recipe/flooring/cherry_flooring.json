@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": {
+            "item": "minecraft:cherry_slab"
+        }
+    },
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "result": {
+        "id": "bountifulblocks:cherry_flooring",
+        "count": 2
+    }
+}

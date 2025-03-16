@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "wooden_slab",
+    "key": {
+        "#": {
+            "item": "bountifulblocks:purple_terracotta_bricks"
+        }
+    },
+    "pattern": [
+        "###"
+    ],
+    "result": {
+        "id": "bountifulblocks:purple_terracotta_brick_slab",
+        "count": 6
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "carpet",
+    "key": {
+        "#": {
+            "item": "bountifulblocks:blue_threaded_wool"
+        }
+    },
+    "pattern": [
+        "##"
+    ],
+    "result": {
+        "id": "bountifulblocks:blue_threaded_carpet",
+        "count": 3
+    }
+}

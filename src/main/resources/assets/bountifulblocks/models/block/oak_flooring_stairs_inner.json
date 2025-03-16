@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/inner_stairs",
+    "textures": {
+        "bottom": "bountifulblocks:block/oak_flooring",
+        "side": "bountifulblocks:block/oak_flooring",
+        "top": "bountifulblocks:block/oak_flooring"
+    }
+}

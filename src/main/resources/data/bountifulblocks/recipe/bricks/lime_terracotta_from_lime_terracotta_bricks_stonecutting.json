@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "bountifulblocks:lime_terracotta_bricks"
+    },
+    "result": {
+        "id": "minecraft:lime_terracotta",
+        "count": 1
+    }
+}

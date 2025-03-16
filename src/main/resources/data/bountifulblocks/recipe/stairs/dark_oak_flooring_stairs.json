@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "#": {
+            "item": "bountifulblocks:dark_oak_flooring"
+        }
+    },
+    "pattern": [
+        "#  ",
+        "## ",
+        "###"
+    ],
+    "result": {
+        "id": "bountifulblocks:dark_oak_flooring_stairs",
+        "count": 4
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:diorite"
+    },
+    "result": {
+        "id": "bountifulblocks:chiseled_diorite",
+        "count": 1
+    }
+}

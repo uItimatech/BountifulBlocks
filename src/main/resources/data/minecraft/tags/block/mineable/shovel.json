@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "bountifulblocks:carved_snow",
+        "bountifulblocks:packed_snow",
+        "bountifulblocks:packed_snow_slab",
+        "bountifulblocks:packed_snow_stairs",
+        "bountifulblocks:packed_snow_wall",
+        "bountifulblocks:snow_bricks",
+        "bountifulblocks:snow_brick_slab",
+        "bountifulblocks:snow_brick_stairs",
+        "bountifulblocks:snow_brick_wall"
+    ]
+}

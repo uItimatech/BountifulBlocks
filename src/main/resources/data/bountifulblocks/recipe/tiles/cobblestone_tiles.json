@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "S": {
+            "item": "bountifulblocks:cobblestone_bricks"
+        }
+    },
+    "pattern": [
+        "SS",
+        "SS"
+    ],
+    "result": {
+        "id": "bountifulblocks:cobblestone_tiles",
+        "count": 4
+    }
+}

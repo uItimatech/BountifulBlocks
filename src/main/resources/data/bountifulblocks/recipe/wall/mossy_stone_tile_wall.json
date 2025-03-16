@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": {
+            "item": "bountifulblocks:mossy_stone_tiles"
+        }
+    },
+    "pattern": [
+        "###",
+        "###"
+    ],
+    "result": {
+        "id": "bountifulblocks:mossy_stone_tile_wall",
+        "count": 6
+    }
+}

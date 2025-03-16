@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:pink_concrete"
+    },
+    "result": {
+        "id": "bountifulblocks:pink_concrete_slab",
+        "count": 2
+    }
+}

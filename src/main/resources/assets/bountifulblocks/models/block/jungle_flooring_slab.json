@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/slab",
+    "textures": {
+        "bottom": "bountifulblocks:block/jungle_flooring",
+        "side": "bountifulblocks:block/jungle_flooring",
+        "top": "bountifulblocks:block/jungle_flooring"
+    }
+}

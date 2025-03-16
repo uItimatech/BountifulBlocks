@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "bountifulblocks:mossy_cobblestone_bricks"
+    },
+    "result": {
+        "id": "bountifulblocks:mossy_cobblestone_brick_stairs",
+        "count": 1
+    }
+}

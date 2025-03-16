@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smelting",
+    "category": "blocks",
+    "cookingtime": 200,
+    "experience": 0.1,
+    "ingredient": {
+        "item": "bountifulblocks:smooth_basalt_bricks"
+    },
+    "result": {
+        "id": "bountifulblocks:cracked_smooth_basalt_bricks",
+        "count": 1
+    }
+}

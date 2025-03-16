@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "wooden_slab",
+    "key": {
+        "#": {
+            "item": "minecraft:light_gray_concrete"
+        }
+    },
+    "pattern": [
+        "###"
+    ],
+    "result": {
+        "id": "bountifulblocks:light_gray_concrete_slab",
+        "count": 6
+    }
+}

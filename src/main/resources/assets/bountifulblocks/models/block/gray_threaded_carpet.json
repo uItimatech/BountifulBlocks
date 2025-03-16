@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+    "wool": "bountifulblocks:block/gray_threaded_wool"
+  }
+}

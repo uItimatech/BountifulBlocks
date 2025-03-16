@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "bountifulblocks:red_sandstone_tiles"
+    },
+    "result": {
+        "id": "bountifulblocks:red_sandstone_tile_wall",
+        "count": 1
+    }
+}

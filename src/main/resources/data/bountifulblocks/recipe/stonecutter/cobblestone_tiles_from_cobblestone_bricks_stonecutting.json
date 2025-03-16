@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "bountifulblocks:cobblestone_bricks"
+    },
+    "result": {
+        "id": "bountifulblocks:cobblestone_tiles",
+        "count": 1
+    }
+}

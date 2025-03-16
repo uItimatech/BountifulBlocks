@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": {
+            "item": "bountifulblocks:polished_purpur"
+        }
+    },
+    "pattern": [
+        "###",
+        "###"
+    ],
+    "result": {
+        "id": "bountifulblocks:polished_purpur_wall",
+        "count": 6
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "variants": {
+      "facing=east,carved=false": {
+        "model": "bountifulblocks:block/carved_snow",
+        "y": 90
+      },
+      "facing=north,carved=false": {
+        "model": "bountifulblocks:block/carved_snow"
+      },
+      "facing=south,carved=false": {
+        "model": "bountifulblocks:block/carved_snow",
+        "y": 180
+      },
+      "facing=west,carved=false": {
+        "model": "bountifulblocks:block/carved_snow",
+        "y": 270
+      },
+      "facing=up,carved=false": {
+        "model": "bountifulblocks:block/carved_snow",
+        "x": 270
+      },
+      "facing=down,carved=false": {
+        "model": "bountifulblocks:block/carved_snow",
+        "x": 90
+      },
+      "facing=east,carved=true": {
+        "model": "bountifulblocks:block/carved_snow_face",
+        "y": 90
+      },
+      "facing=north,carved=true": {
+        "model": "bountifulblocks:block/carved_snow_face"
+      },
+      "facing=south,carved=true": {
+        "model": "bountifulblocks:block/carved_snow_face",
+        "y": 180
+      },
+      "facing=west,carved=true": {
+        "model": "bountifulblocks:block/carved_snow_face",
+        "y": 270
+      },
+      "facing=up,carved=true": {
+        "model": "bountifulblocks:block/carved_snow_face",
+        "x": 270
+      },
+      "facing=down,carved=true": {
+        "model": "bountifulblocks:block/carved_snow_face",
+        "x": 90
+      }
+    }
+  }

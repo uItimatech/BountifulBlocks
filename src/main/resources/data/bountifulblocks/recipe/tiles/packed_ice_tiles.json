@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "S": {
+            "item": "bountifulblocks:packed_ice_bricks"
+        }
+    },
+    "pattern": [
+        "SS",
+        "SS"
+    ],
+    "result": {
+        "id": "bountifulblocks:packed_ice_tiles",
+        "count": 4
+    }
+}

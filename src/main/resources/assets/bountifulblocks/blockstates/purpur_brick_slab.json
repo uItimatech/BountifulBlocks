@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "bountifulblocks:block/purpur_brick_slab"
+        },
+        "type=double": {
+            "model": "bountifulblocks:block/purpur_bricks"
+        },
+        "type=top": {
+            "model": "bountifulblocks:block/purpur_brick_slab_top"
+        }
+    }
+}

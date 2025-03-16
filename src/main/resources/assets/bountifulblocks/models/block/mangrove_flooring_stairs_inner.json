@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/inner_stairs",
+    "textures": {
+        "bottom": "bountifulblocks:block/mangrove_flooring",
+        "side": "bountifulblocks:block/mangrove_flooring",
+        "top": "bountifulblocks:block/mangrove_flooring"
+    }
+}

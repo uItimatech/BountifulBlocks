@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "bountifulblocks:polished_purpur"
+    },
+    "result": {
+        "id": "bountifulblocks:chiseled_purpur",
+        "count": 1
+    }
+}

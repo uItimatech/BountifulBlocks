@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "#": {
+            "item": "bountifulblocks:calcite_slab"
+        }
+    },
+    "pattern": [
+        "#",
+        "#"
+    ],
+    "result": {
+        "id": "bountifulblocks:chiseled_calcite",
+        "count": 1
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": {
+            "item": "minecraft:stone"
+        }
+    },
+    "pattern": [
+        "###",
+        "###"
+    ],
+    "result": {
+        "id": "bountifulblocks:stone_wall",
+        "count": 6
+    }
+}

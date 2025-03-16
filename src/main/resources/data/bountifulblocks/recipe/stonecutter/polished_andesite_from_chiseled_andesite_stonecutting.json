@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "bountifulblocks:chiseled_andesite"
+    },
+    "result": {
+        "id": "minecraft:polished_andesite",
+        "count": 1
+    }
+}

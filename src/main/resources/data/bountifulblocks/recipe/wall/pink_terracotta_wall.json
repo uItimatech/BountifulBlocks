@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": {
+            "item": "minecraft:pink_terracotta"
+        }
+    },
+    "pattern": [
+        "###",
+        "###"
+    ],
+    "result": {
+        "id": "bountifulblocks:pink_terracotta_wall",
+        "count": 6
+    }
+}

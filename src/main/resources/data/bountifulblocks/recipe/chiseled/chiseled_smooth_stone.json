@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "#": {
+            "item": "minecraft:smooth_stone_slab"
+        }
+    },
+    "pattern": [
+        "#",
+        "#"
+    ],
+    "result": {
+        "id": "bountifulblocks:chiseled_smooth_stone",
+        "count": 1
+    }
+}

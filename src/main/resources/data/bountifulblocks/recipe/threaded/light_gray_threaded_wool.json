@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": {
+            "item": "minecraft:light_gray_wool"
+        }
+    },
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "result": {
+        "id": "bountifulblocks:light_gray_threaded_wool",
+        "count": 3
+    }
+}
