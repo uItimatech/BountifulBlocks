@@ -15,7 +15,6 @@ public class AxeItemMixin {
 
     @Inject(method = "getAxeStrippingState", at = @At("HEAD"), cancellable = true)
     private static void getAxeStrippingState(BlockState state, CallbackInfoReturnable<BlockState> cir) {
-        BountifulBlocks.LOGGER.info("AxeItemMixin.getAxeStrippingState");
         if (BountifulBlocks.CARVABLE_PLANKS.containsKey(state.getBlock())) {
             cir.setReturnValue(BountifulBlocks.CARVABLE_PLANKS.get(state.getBlock()).get().defaultBlockState());
         }
