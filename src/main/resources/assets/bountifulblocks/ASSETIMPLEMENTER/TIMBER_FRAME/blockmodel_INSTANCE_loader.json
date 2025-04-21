@@ -1,0 +1,4 @@
+{
+	"loader": "bountifulblocks:INSTANCE",
+	"overlay": "bountifulblocks:block/INSTANCE_overlay"
+}

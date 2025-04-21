@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "bountifulblocks:block/pale_oak_planks",
+        "side": "bountifulblocks:block/carved_pale_oak_planks"
+    }
+}

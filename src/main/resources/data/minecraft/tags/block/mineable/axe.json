@@ -25,6 +25,9 @@
         "bountifulblocks:oak_flooring",
         "bountifulblocks:oak_flooring_slab",
         "bountifulblocks:oak_flooring_stairs",
+        "bountifulblocks:pale_oak_flooring",
+        "bountifulblocks:pale_oak_flooring_slab",
+        "bountifulblocks:pale_oak_flooring_stairs",
         "bountifulblocks:spruce_flooring",
         "bountifulblocks:spruce_flooring_slab",
         "bountifulblocks:spruce_flooring_stairs",
@@ -41,6 +44,7 @@
         "bountifulblocks:carved_mangrove_planks",
         "bountifulblocks:carved_oak_planks",
         "bountifulblocks:carved_spruce_planks",
-        "bountifulblocks:carved_warped_planks"
+        "bountifulblocks:carved_warped_planks",
+        "bountifulblocks:carved_pale_oak_planks"
     ]
 }

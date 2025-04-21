@@ -559,5 +559,10 @@
 	"block.bountifulblocks.smooth_stone_tile_slab": "Smooth Stone Tile Slab",
 	"block.bountifulblocks.smooth_stone_tile_wall": "Smooth Stone Tile Wall",
 
-	"block.bountifulblocks.mud_pot": "Mud Pot"
+	"block.bountifulblocks.mud_pot": "Mud Pot",
+
+	"block.bountifulblocks.pale_oak_flooring": "Pale Oak Flooring",
+	"block.bountifulblocks.pale_oak_flooring_stairs": "Pale Oak Flooring Stairs",
+	"block.bountifulblocks.pale_oak_flooring_slab": "Pale Oak Flooring Slab",
+	"block.bountifulblocks.carved_pale_oak_planks": "Carved Pale Oak Planks"
 }

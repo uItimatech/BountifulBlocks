@@ -1,6 +1,6 @@
 {
     "block.bountifulblocks.large_chain": "Grande chaîne",
-    
+
 	"block.bountifulblocks.packed_mud_stairs": "Escalier en terre crue",
 	"block.bountifulblocks.packed_mud_slab": "Dalle en terre crue",
 	"block.bountifulblocks.packed_mud_wall": "Mur en terre crue",
@@ -300,7 +300,7 @@
 	"block.bountifulblocks.packed_ice_brick_wall": "Mur en briques de glace compactée",
 	"block.bountifulblocks.blue_ice_bricks": "Briques de glace bleue",
 	"block.bountifulblocks.blue_ice_brick_stairs": "Escalier en briques de glace bleue",
-	"block.bountifulblocks.blue_ice_brick_slab": "Dalle en briques de glace bleue",	
+	"block.bountifulblocks.blue_ice_brick_slab": "Dalle en briques de glace bleue",
 	"block.bountifulblocks.blue_ice_brick_wall": "Mur en briques de glace bleue",
 	"block.bountifulblocks.chiseled_ice": "Glace taillée",
 	"block.bountifulblocks.chiseled_packed_ice": "Glace compactée taillée",
@@ -364,7 +364,7 @@
 	"block.bountifulblocks.magenta_concrete_wall": "Mur en béton magenta",
 	"block.bountifulblocks.pink_concrete_stairs": "Escalier en béton rose",
 	"block.bountifulblocks.pink_concrete_slab": "Dalle en béton rose",
-	"block.bountifulblocks.pink_concrete_wall": "Mur en béton rose",	
+	"block.bountifulblocks.pink_concrete_wall": "Mur en béton rose",
 
 	"block.bountifulblocks.purpur_tile_wall": "Mur en purpur carrelé",
 	"block.bountifulblocks.purpur_bricks": "Briques de purpur",
@@ -435,7 +435,7 @@
 	"block.bountifulblocks.blackstone_tile_stairs": "Escalier en carreaux de roche noire",
 	"block.bountifulblocks.blackstone_tile_slab": "Dalle en carreaux de roche noire",
 	"block.bountifulblocks.blackstone_tile_wall": "Mur en carreaux de roche noire",
-	
+
 	"block.bountifulblocks.deepslate_stairs": "Escalier en pierre des abîmes",
 	"block.bountifulblocks.deepslate_slab": "Dalle en pierre des abîmes",
 	"block.bountifulblocks.deepslate_wall": "Mur en pierre des abîmes",
@@ -484,6 +484,7 @@
 	"block.bountifulblocks.cherry_flooring": "Parquet en cerisier",
 	"block.bountifulblocks.crimson_flooring": "Parquet en carmin",
 	"block.bountifulblocks.warped_flooring": "Parquet en distordu",
+	"block.bountifulblocks.pale_oak_flooring": "Parquet en chêne pâle",
 
 	"block.bountifulblocks.carved_oak_planks": "Planches de chêne sculptées",
 	"block.bountifulblocks.carved_spruce_planks": "Planches de sapin sculptées",
@@ -496,6 +497,7 @@
 	"block.bountifulblocks.carved_bamboo_planks": "Planches de bambou sculptées",
 	"block.bountifulblocks.carved_crimson_planks": "Planches de carmin sculptées",
 	"block.bountifulblocks.carved_warped_planks": "Planches de distordu sculptées",
+	"block.bountifulblocks.carved_pale_oak_planks": "Planches de chêne pâle sculptées",
 	"block.bountifulblocks.oak_flooring_slab": "Dalle de parquet en chêne",
 	"block.bountifulblocks.spruce_flooring_slab": "Dalle de parquet en sapin",
 	"block.bountifulblocks.birch_flooring_slab": "Dalle de parquet en bouleau",
@@ -506,6 +508,8 @@
 	"block.bountifulblocks.cherry_flooring_slab": "Dalle de parquet en cerisier",
 	"block.bountifulblocks.crimson_flooring_slab": "Dalle de parquet en carmin",
 	"block.bountifulblocks.warped_flooring_slab": "Dalle de parquet en distordu",
+	"block.bountifulblocks.bamboo_flooring_slab": "Dalle de parquet en bambou",
+	"block.bountifulblocks.pale_oak_flooring_slab": "Dalle de parquet en chêne pâle",
 	"block.bountifulblocks.oak_flooring_stairs": "Escalier de parquet en chêne",
 	"block.bountifulblocks.spruce_flooring_stairs": "Escalier de parquet en sapin",
 	"block.bountifulblocks.birch_flooring_stairs": "Escalier de parquet en bouleau",
@@ -516,6 +520,8 @@
 	"block.bountifulblocks.cherry_flooring_stairs": "Escalier de parquet en cerisier",
 	"block.bountifulblocks.crimson_flooring_stairs": "Escalier de parquet en carmin",
 	"block.bountifulblocks.warped_flooring_stairs": "Escalier de parquet en distordu",
+	"block.bountifulblocks.bamboo_flooring_stairs": "Escalier de parquet en bambou",
+	"block.bountifulblocks.pale_oak_flooring_stairs": "Escalier de parquet en chêne pâle",
 
 	"block.bountifulblocks.chiseled_obsidian": "Obsidienne taillée",
 	"block.bountifulblocks.polished_obsidian": "Obsidienne polie",

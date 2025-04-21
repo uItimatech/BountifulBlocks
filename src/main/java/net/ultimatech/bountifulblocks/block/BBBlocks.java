@@ -93,6 +93,9 @@ public class BBBlocks {
     public static final DeferredBlock<Block> CARVED_WARPED_PLANKS = registerBlock("carved_warped_planks", () ->
             new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS)));
 
+    public static final DeferredBlock<Block> CARVED_PALE_OAK_PLANKS = registerBlock("carved_pale_oak_planks", () ->
+            new BBFlammableBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS), 5, 20));
+
 
 
     public static final DeferredBlock<Block> OAK_FLOORING = registerBlock("oak_flooring", () ->
@@ -124,6 +127,9 @@ public class BBBlocks {
 
     public static final DeferredBlock<Block> WARPED_FLOORING = registerBlock("warped_flooring", () ->
             new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS)));
+
+    public static final DeferredBlock<Block> PALE_OAK_FLOORING = registerBlock("pale_oak_flooring", () ->
+            new BBFlammableBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS), 5, 20));
 
 
 
@@ -192,6 +198,12 @@ public class BBBlocks {
 
     public static final DeferredBlock<Block> WARPED_FLOORING_SLAB = registerBlock("warped_flooring_slab", () ->
             new SlabBlock(BlockBehaviour.Properties.ofFullCopy(BBBlocks.WARPED_FLOORING.get())));
+
+    public static final DeferredBlock<Block> PALE_OAK_FLOORING_STAIRS = registerBlock("pale_oak_flooring_stairs", () ->
+            new BBFlammableStairBlock(BBBlocks.PALE_OAK_FLOORING.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(BBBlocks.PALE_OAK_FLOORING.get()), 5, 20));
+
+    public static final DeferredBlock<Block> PALE_OAK_FLOORING_SLAB = registerBlock("pale_oak_flooring_slab", () ->
+            new BBFlammableSlabBlock(BlockBehaviour.Properties.ofFullCopy(BBBlocks.PALE_OAK_FLOORING.get()), 5, 20));
 
 
 
@@ -1631,9 +1643,6 @@ new StairBlock(BBBlocks.BLACK_TERRACOTTA_BRICKS.get().defaultBlockState(), Block
 
     public static final DeferredBlock<Block> PINK_CONCRETE_WALL = registerBlock("pink_concrete_wall", () ->
             new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.PINK_CONCRETE)));
-
-
-
 
 
 

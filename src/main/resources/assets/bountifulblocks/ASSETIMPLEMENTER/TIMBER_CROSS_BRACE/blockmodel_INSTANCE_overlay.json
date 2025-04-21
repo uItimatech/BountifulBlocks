@@ -1,0 +1,7 @@
+{
+	"parent": "bountifulblocks:block/timber_frame_overlay",
+	"textures": {
+		"1": "bountifulblocks:block/INSTANCE",
+		"2": "bountifulblocks:block/INSTANCE"
+	}
+}

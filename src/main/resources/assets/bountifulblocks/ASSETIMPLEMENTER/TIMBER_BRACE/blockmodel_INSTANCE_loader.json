@@ -1,0 +1,4 @@
+{
+	"loader": "bountifulblocks:frame_block",
+	"overlay": "bountifulblocks:block/INSTANCE_overlay"
+}

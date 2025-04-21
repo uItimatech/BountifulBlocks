@@ -1,6 +1,8 @@
 package net.ultimatech.bountifulblocks;
 
 import com.google.common.collect.ImmutableMap;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.client.model.renderable.ITextureRenderTypeLookup;
@@ -34,10 +36,7 @@ public class BountifulBlocks {
     public static final String MOD_ID = "bountifulblocks";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    //public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MOD_ID);
 
-    // Creates a new BlockItem with the id "examplemod:example_block", combining the namespace and path
-    //public static final DeferredItem<BlockItem> EXAMPLE_BLOCK_ITEM = ITEMS.registerSimpleBlockItem("example_block", EXAMPLE_BLOCK);
 
     public static final Map<Block,DeferredBlock<Block>> CARVABLE_PLANKS = ImmutableMap.<Block,DeferredBlock<Block>>builder()
             .put(Blocks.OAK_PLANKS, BBBlocks.CARVED_OAK_PLANKS)
@@ -52,7 +51,6 @@ public class BountifulBlocks {
             .put(Blocks.CRIMSON_PLANKS, BBBlocks.CARVED_CRIMSON_PLANKS)
             .put(Blocks.WARPED_PLANKS, BBBlocks.CARVED_WARPED_PLANKS)
             .build();
-
 
 
 
@@ -81,6 +79,7 @@ public class BountifulBlocks {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            ItemBlockRenderTypes.setRenderLayer(BBBlocks.LARGE_CHAIN.get(), RenderType.cutout());
         }
     }
 }

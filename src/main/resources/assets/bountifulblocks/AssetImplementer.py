@@ -39,7 +39,7 @@ def main():
     print("- Welcome to the AssetImplementer program! -\n")
         
     print("Do you want to create a block or an item? (b/i)")
-    choice = input()
+    choice = "input()"
     if choice == "b":
         createBlock()
         print("\nBlock created successfully!\n")
@@ -71,6 +71,8 @@ def autoMain():
 
         if line.startswith("//") or line == "\n" or line == "":
             continue
+
+        line.replace("\n", "")
 
         print("Implementing asset " + str(currentCount+1) + "/" + str(lineCount))
         currentCount += 1

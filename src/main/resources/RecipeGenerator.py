@@ -25,7 +25,7 @@ blockStatesFolder = "assets/bountifulblocks/blockstates"
 vanillaBlockStatesFolder = "RECIPEGEN/_VANILLA_BLOCKSTATES"
 vanillaRecipesFolder = "RECIPEGEN/_VANILLA_RECIPES"
 templateFolder = "RECIPEGEN"
-exportFolder = "data/bountifulblocks/recipe" # Add an "s" for versions earlier than 1.21
+exportFolder = "data/bountifulblocks/recipe/temp" # Add an "s" for versions earlier than 1.21
 stonecutterExportFolder = "stonecutter"
 
 
@@ -106,8 +106,15 @@ mossyFullBlocks = [f for f in allModBlocks if isfile(join(blockStatesFolder, f))
 crackedBlocks = [f for f in allModBlocks if "cracked" in f and not "mossy" in f]
 threadedWoolBlocks = [f for f in allModBlocks if "threaded" in f and "carpet" not in f]
 terracottaBricksBlocks = [f for f in allModBlocks if "terracotta_bricks" in f]
+'''daubFrameBlocks = [f for f in allModBlocks if "daub_frame" in f]
+daubCrossBraceBlocks = [f for f in allModBlocks if "daub_cross_brace" in f]
+daubBraceBlocks = [f for f in allModBlocks if "daub_brace" in f and not "cross" in f]
+timberFrameBlocks = [f for f in allModBlocks if "timber_frame" in f]
+timberCrossBraceBlocks = [f for f in allModBlocks if "timber_cross_brace" in f]
+timberBraceBlocks = [f for f in allModBlocks if "timber_brace" in f and not "cross" in f]'''
 
-woodTypes = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "crimson", "warped", "bamboo", "mangrove", "cherry"]
+
+woodTypes = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "bamboo", "crimson", "warped", "pale_oak"]
 
 
 
@@ -129,7 +136,7 @@ associations = [
     ["mossy_","MOSSY_DEFAULT",mossyFullBlocks],
     ["cracked_","CRACKED",crackedBlocks],
     ["_threaded","THREADED_WOOL",threadedWoolBlocks],
-    ["_bricks","TERRACOTTA_BRICKS",terracottaBricksBlocks]
+    ["_bricks","TERRACOTTA_BRICKS",terracottaBricksBlocks],
     ]
 
 

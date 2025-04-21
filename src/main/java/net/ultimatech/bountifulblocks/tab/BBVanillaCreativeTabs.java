@@ -591,7 +591,7 @@ public class BBVanillaCreativeTabs {
         }
     }
 
-    private static void addDuplicatesToTab_FUNCTIONAL(BuildCreativeModeTabContentsEvent event) {
+    private static void addEchoingWildsDuplicates(BuildCreativeModeTabContentsEvent event) {
 
         if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 
@@ -628,14 +628,30 @@ public class BBVanillaCreativeTabs {
         }
     }
 
+    private static void addPaleOak(BuildCreativeModeTabContentsEvent event) {
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(BBBlocks.CARVED_PALE_OAK_PLANKS);
+            event.accept(BBBlocks.PALE_OAK_FLOORING);
+            event.accept(BBBlocks.PALE_OAK_FLOORING_STAIRS);
+            event.accept(BBBlocks.PALE_OAK_FLOORING_SLAB);
+        }
+    }
+
+
     public static void register(IEventBus modEventBus) {
 
         modEventBus.addListener(BBVanillaCreativeTabs::addToTab_BUILDING_BLOCKS);
         modEventBus.addListener(BBVanillaCreativeTabs::addToTab_COLORED_BLOCKS);
 
         if (!BBDependencyManager.isEchoingWildsInstalled()) {
-            modEventBus.addListener(BBVanillaCreativeTabs::addDuplicatesToTab_FUNCTIONAL);
+            modEventBus.addListener(BBVanillaCreativeTabs::addEchoingWildsDuplicates);
         }
+
+        if (BBDependencyManager.isPaleOakAvailable() || true) {
+            modEventBus.addListener(BBVanillaCreativeTabs::addPaleOak);
+        }
+
         modEventBus.addListener(BBVanillaCreativeTabs::addToTab_FUNCTIONAL);
     }
 }
